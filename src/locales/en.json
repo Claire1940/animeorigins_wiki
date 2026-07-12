@@ -10,14 +10,7 @@
       "twitterDescription": "Anime Origins Wiki covers codes, units, tier lists, summons, traits, raids, and beginner guides for the Roblox anime tower defense game."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
