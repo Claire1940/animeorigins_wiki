@@ -131,13 +131,13 @@
         },
         {
           "status": "Fuente oficial de códigos",
-          "statusTone": "acento",
+          "statusTone": "accent",
           "reward": "Las recompensas por lanzamiento, actualizaciones y logros de la comunidad se anuncian a través del Discord de Anime Origins.",
           "requirements": "Únete al servidor y sigue sus canales de anuncios y actualizaciones."
         },
         {
           "status": "Lista de verificación de canje",
-          "statusTone": "éxito",
+          "statusTone": "success",
           "reward": "Las recompensas se añaden directamente al saldo o inventario correspondiente dentro del juego.",
           "requirements": "Inicia Anime Origins, abre la interfaz de entrada de códigos, pega el código completo y confirma el canje."
         }
