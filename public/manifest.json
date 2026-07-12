@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Origins Wiki - Codes, Units, Tier List & Raids",
+  "short_name": "Anime Origins",
+  "description": "Anime Origins Wiki covers codes, unit tier lists, summons, traits, evolutions, Story Mode, Infinite Mode, raids, updates, and beginner team-building tips for the Roblox anime tower defense game.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#9c2ee5",
   "background_color": "#0a0a0a",
   "icons": [
     {
