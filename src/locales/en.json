@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Anime Origins Wiki - Codes, Units, Tier List & Raids",
+      "description": "Anime Origins Wiki covers codes, unit tier lists, summons, traits, evolutions, Story Mode, Infinite Mode, raids, updates, and beginner team-building tips.",
+      "keywords": "anime origins, roblox, codes, tier list, units, summons, traits, raids, evolution",
+      "ogTitle": "Anime Origins Wiki - Codes, Units, Tier List & Raids",
+      "ogDescription": "Anime Origins Wiki covers codes, unit tier lists, summons, traits, evolutions, Story Mode, Infinite Mode, raids, updates, and beginner team-building tips.",
+      "twitterTitle": "Anime Origins Wiki - Codes, Units, Tier List & Raids",
+      "twitterDescription": "Anime Origins Wiki covers codes, units, tier lists, summons, traits, raids, and beginner guides for the Roblox anime tower defense game."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Join Discord",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Next-Generation Anime Tower Defense",
+    "title": "Anime Origins Wiki",
+    "description": "Summon powerful anime units, upgrade and evolve your team, then defend multiple worlds across Story Mode, Infinite Mode, raids, and other challenges.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Join Official Discord",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Upcoming",
+        "label": "Release Status"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3+",
+        "label": "Core Modes"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "Supported Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Free",
+        "label": "Private Servers"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Origins Gameplay",
+    "description": "Summon anime units, upgrade and evolve them, and defend across Story Mode, Infinite Mode, and raids in this upcoming Roblox anime tower defense game."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -756,55 +756,53 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Anime Origins",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Origins?",
+        "answer": "Anime Origins is an upcoming Roblox anime tower defense game developed by SNAP GAMES. You summon anime units, upgrade and evolve them, and defend against waves across multiple modes."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What game modes does Anime Origins have?",
+        "answer": "Anime Origins features Story Mode, Infinite Mode, and Raids as its core modes, with additional challenges and events planned for future updates."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms can I play Anime Origins on?",
+        "answer": "Anime Origins is a Roblox game, so it runs on Mobile, Tablet, PC, and Console wherever Roblox is supported. Private Servers are free."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "When will Anime Origins release?",
+        "answer": "Anime Origins is currently in the Upcoming stage and has not officially launched yet. Follow the official Discord for the latest release date and beta announcements."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do summons and banners work in Anime Origins?",
+        "answer": "Summons let you roll for anime units on the banner using in-game currency. Higher-rarity units have lower drop rates, and a pity system guarantees a featured unit after a set number of pulls."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I get Anime Origins codes?",
+        "answer": "New codes are released by the developers through the official Discord and social channels. Redeem them in-game for free gems, coins, and exclusive units."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Anime Origins?",
+    "description": "Join the Anime Origins community on Discord for codes, unit tier lists, summon guides, traits, and the latest update news.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Watch Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Anime Origins Wiki",
+    "description": "Your complete resource hub for Anime Origins codes, units, tier lists, traits, evolutions, raids, and beginner team-building guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube Gameplay",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Anime Origins Wiki. Not affiliated with SNAP GAMES or the developers of Anime Origins.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
