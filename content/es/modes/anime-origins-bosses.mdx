@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jefes de Anime Origins: Encuentros de Raid y Estrategias de Batalla",
+  description: "Domina a todos los jefes de Anime Origins con nuestra guía estratégica integral. Aprende mecánicas de raid, patrones de movimiento de jefes y la composición óptima del equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2a1b4e/fff?text=Raid+Boss+Strategies",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Origins"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jefes de Anime Origins**: Poderosas amenazas del juego tardío que requieren posicionamientos específicos y sinergias de unidades para ser derrotados.
+- **Preparación para Raids**: Asegúrate de que tu equipo tenga un alto DPS a un solo objetivo, utilidad de ralentización/aturdimiento y un generador de economía activo.
+- **Táctica crítica**: Nunca coloques unidades caras primero; concéntrate en una defensa temprana y barata para sobrevivir a las oleadas iniciales.
+- **Sinergia óptima**: Empareja a causantes de gran daño como Meliodas (Assault Mode) con un soporte confiable de control de masas.
+</Callout>
+
+<Section icon={Swords} title="Resumen de los Jefes de Anime Origins">
+
+Derrotar a los poderosos **jefes de Anime Origins** es la prueba definitiva de tus capacidades estratégicas. A diferencia de los enemigos comunes de los carriles, los jefes poseen enormes reservas de salud, resistencias elementales y mecánicas especiales que pueden abrumar rápidamente a una defensa desprevenida. Para tener éxito en Raids de alto nivel y en incursiones profundas del Modo Infinito, debes comprender cómo se comportan estas grandes amenazas y cómo construir un equipo capaz de manejar su inmensa presión.
+
+| Tipo de Jefe | Amenaza Principal | Mejor Contraetiqueta | Dificultad |
+|---|---|---|---|
+| **Jefe de Historia** | Alta velocidad, Avance rápido por carril | Ralentizaciones baratas, Alto DPS activo | Media |
+| **Jefe de Raid** | HP masivo, Habilidades de aturdimiento en carril | Unidades de daño evolucionadas, Configuraciones inmunes a aturdimiento | Difícil |
+| **Jefe Infinito** | Escalamiento infinito, Fases con escudo | Atacantes de múltiples golpes, Carries al máximo de mejora | Muy Difícil |
+
+<Callout type="warning" title="Advertencia de Amenaza">
+Los jefes en las Raids pueden deshabilitar temporalmente tus torres. Espaciar a tus principales causantes de daño a lo largo del camino evita que una sola habilidad del jefe neutralice toda tu defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mecánicas y Estrategias del Jefe de Raid">
+
+Los encuentros de Raid presentan las mecánicas más complejas de todos los **jefes de Anime Origins**. El éxito en estas arenas requiere una coordinación estricta, una sincronización precisa de las mejoras y una comprensión profunda del recorrido de los enemigos. No puedes confiar únicamente en el daño bruto; la utilidad y el posicionamiento juegan un papel igual de importante para asegurar la victoria.
+
+<CardGrid cols={3}>
+  <Card title="Fase 1: Entrada">
+    - **Comportamiento de aparición**: El jefe entra con pequeñas oleadas de apoyo.
+    - **Estrategia**: Concéntrate primero en limpiar a los esbirros menores.
+    - **Prioridad**: Guarda las habilidades activas de alto daño.
+  </Card>
+  <Card title="Fase 2: Escudo">
+    - **Comportamiento de aparición**: El jefe obtiene una barrera de daño temporal.
+    - **Estrategia**: Usa unidades con alta velocidad de ataque para romper los escudos.
+    - **Prioridad**: Mantén los efectos de ralentización y congelación.
+  </Card>
+  <Card title="Fase 3: Enfurecimiento">
+    - **Comportamiento de aparición**: La velocidad de movimiento aumenta en un 50%.
+    - **Estrategia**: Inversión máxima de mejoras en tu carry principal.
+    - **Prioridad**: Encadena habilidades de aturdimiento de forma continua.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Posicionamiento Estratégico">
+Coloca tus unidades de soporte que infligen ralentización justo al comienzo de los caminos rectos más largos. Esto mantiene al jefe dentro del rango de ataque de tus atacantes pesados como Meliodas o Yuta Okkotsu durante la mayor duración posible.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso de la Batalla contra el Jefe">
+
+Sigue esta secuencia táctica para gestionar y derrotar con éxito a los jefes de alta dificultad durante las partidas activas.
+
+<Steps>
+  <Step num="1" title="Establece tu Economía Primero">
+    Despliega tus unidades generadoras de economía durante las oleadas iniciales. Necesitas un flujo de efectivo masivo para permitirte las costosas mejoras de final de juego necesarias para dañar a los jefes de nivel alto.
+  </Step>
+  <Step num="2" title="Crea un Punto de Estrangulamiento">
+    Identifica esquinas o carriles superpuestos en el mapa. Coloca tus unidades de control de masas aquí para agrupar al jefe y a los enemigos circundantes.
+  </Step>
+  <Step num="3" title="Despliega a tu Carry Principal">
+    Coloca a tu unidad de mayor daño a un solo objetivo, como Yuta Okkotsu, cerca del centro de tu punto de estrangulamiento para maximizar su tiempo total de ataque activo.
+  </Step>
+  <Step num="4" title="Ejecuta Mejoras Específicas">
+    No distribuyas tu oro de manera uniforme. Mejora por completo a tu principal causante de daño primero para desbloquear sus formas de combate avanzadas y de alto escalamiento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Victoria">
+Una vez que el jefe entre en el tramo final del camino, vende tus unidades de defensa del juego temprano y reconstruyelas más adelante en la línea para obtener una última ronda de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Composición Óptima del Equipo para Jefes">
+
+Derrotar a los jefes del juego tardío requiere un equipo altamente estructurado. Cada unidad debe cumplir un propósito distinto, equilibrando el daño bruto con la utilidad de control de masas y la sostenibilidad económica.
+
+| Rol de la Unidad | Opción Recomendada | Contribución Clave | Prioridad |
+|---|---|---|---|
+| **DPS Principal** | Yuta Okkotsu (Secret) | Daño masivo al jefe a un solo objetivo | Alta |
+| **AoE Sostenido** | Meliodas (Assault Mode) | Limpia rápidamente a los esbirros de apoyo | Alta |
+| **Control de Masas** | Starrk (Ranged) | Ralentiza el movimiento del jefe a lo largo del camino | Media |
+| **Economía** | Unidad de Dinero Estándar | Genera dinero para mejoras costosas | Alta |
+
+<Callout type="info" title="Optimización de Rasgos">
+Al optimizar tu equipo, busca rasgos que reduzcan los tiempos de reutilización o aumenten el daño bruto. La reducción del tiempo de reutilización es excepcionalmente poderosa para las unidades de soporte, lo que les permite mantener a los jefes permanentemente ralentizados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Preparación para Jefes de Raid">
+
+Antes de iniciar una partida difícil de Raid o del Modo Infinito, asegúrate de que tu cuenta y la alineación de tu equipo cumplan con estos hitos esenciales de preparación.
+
+<Checklist
+  id="boss-prep-goals"
+  title="Lista de Verificación Previas a la Batalla:"
+  items={[
+    "Evoluciona al menos a un causante de daño principal a su forma avanzada",
+    "Equipa a tu carry principal con un rasgo de Daño o Tiempo de Reutilización de nivel alto",
+    "Coordina los roles con tus compañeros de equipo si juegas en multijugador",
+    "Sube de nivel a tus unidades de soporte para aumentar su rango de ataque base",
+    "Desbloquea servidores privados gratuitos para practicar rutas de posicionamiento específicas de forma segura"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de derrotar a los jefes de Anime Origins con mucha vida?",
+    answer: "Concéntrate en mejorar una sola unidad de daño de nivel alto como Yuta Okkotsu en lugar de colocar múltiples unidades de nivel bajo. Combina a este causante de daño principal con unidades de soporte que ralenticen o congelen al jefe."
+  },
+  {
+    question: "¿Cómo evito que los jefes inhabiliten mis unidades de defensa?",
+    answer: "Evita agrupar todas tus torres en un solo grupo estrecho. Espacia tus unidades de daño principal a lo largo del camino para que una sola habilidad del jefe no pueda aturdir a toda tu alineación de defensa al mismo tiempo."
+  },
+  {
+    question: "¿Son útiles los servidores privados para practicar batallas contra jefes?",
+    answer: "Sí. Los servidores privados son completamente gratuitos y proporcionan el entorno perfecto para probar posicionamientos de unidades, órdenes de mejora y composiciones de equipo sin ninguna interferencia externa."
+  },
+  {
+    question: "¿Qué rasgos son mejores para las unidades que atacan a los jefes de raid?",
+    answer: "Los rasgos que aumentan el daño bruto o reducen los tiempos de reutilización de los ataques son ideales. Los rasgos de alta rareza, especialmente el Rasgo Secreto del 0.1%, ofrecen aumentos masivos de estadísticas que facilitan significativamente los encuentros con los jefes."
+  }
+]} />
+
+</Section>

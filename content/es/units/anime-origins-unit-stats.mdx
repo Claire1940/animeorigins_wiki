@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estadísticas de unidades de Anime Origins: Atributos de héroes y clasificación del meta de 2026",
+  description: "Domina las estadísticas de las unidades de Anime Origins con nuestra guía de 2026. Compara atributos míticos, escalado de evolución y porcentajes de cambio de rasgo para un rendimiento óptimo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Unit+Stats+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Anime Origins"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **estadísticas de unidades de Anime Origins** se dividen en Daño, SPA y Rango, los cuales determinan el DPS total de una unidad.
+- Las **Unidades Míticas** poseen el escalado base más alto y son esenciales para superar los modos Pesadilla en el juego tardío.
+- Los **Cambios de Rasgo** ofrecen multiplicadores masivos, y los rasgos más raros del 0.1% proporcionan animaciones visuales y un poder únicos.
+- La **Evolución** mejora significativamente los atributos base, a menudo duplicando la efectividad de una unidad a través de conjuntos de habilidades mejorados.
+- La **Sinergia del Equipo** depende de equilibrar las unidades con objetivos terrestres y aéreos en función de sus distribuciones de atributos específicas.
+</Callout>
+
+<Section icon={Sparkles} title="Rareza de Unidades y Escalado Base">
+
+Comprender las **estadísticas fundamentales de las unidades de Anime Origins** comienza con la rareza. In este meta de 2026, la brecha entre las unidades Épicas y Míticas se ha ampliado, haciendo que las invocaciones de alto nivel sean más críticas que nunca. Las unidades Míticas no solo ofrecen números brutos más altos; presentan mecánicas de escalado únicas que les permiten seguir siendo relevantes a medida que la salud de los enemigos se infla en las oleadas más altas.
+
+**Puntos Destacados del Video:**
+- Primer vistazo a las nuevas unidades de Leyenda y sus animaciones de alto nivel.
+- Comparación entre las unidades Míticas del banner actual y los dominadores anteriores del meta.
+- Resumen del sistema de índice y cómo seguir el progreso de evolución de las unidades.
+- Primeras impresiones del sistema de cambio de rasgos y su impacto en la jugabilidad.
+
+<YouTubeEmbed videoId="qXCW-lsSvhE" title="This *NEW* ANIME TOWER DEFENSE ABSOLUTE PEAK! First Look At New Legend! Anime Origins" />
+
+La siguiente tabla detalla la distribución típica de estadísticas que puedes esperar entre las diferentes rarezas en la versión actual del juego de 2026.
+
+| Rareza | Daño Base | SPA Base | Rango Base | Potencial de Crecimiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rara** | 50 - 150 | 4.0s - 6.0s | 15 - 25 | **Bajo** |
+| **Épica** | 200 - 450 | 3.5s - 5.5s | 20 - 35 | **Moderado** |
+| **Legendaria** | 600 - 1,200 | 2.5s - 4.5s | 30 - 50 | **Alto** |
+| **Mítica** | 2,500+ | 1.8s - 4.0s | 45 - 75 | **Excelente** |
+
+<Callout type="tip" title="Consejo Pro">
+Al revisar el índice de tus unidades, prioriza aquellas con un SPA (Segundos por Ataque) inferior a 3.0. Los atacantes rápidos son significativamente más efectivos para aplicar efectos de estado como Quemadura o Sangrado, independientemente de su estadística de daño bruto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Atributos Principales">
+
+La efectividad de cualquier personaje está determinada por tres **estadísticas principales de las unidades de Anime Origins**: Daño, Segundos por Ataque (SPA) y Rango. Aunque el Daño es el número más visible, el SPA suele ser el factor "oculto" que determina el Daño por Segundo (DPS) real. Una unidad con 1,000 de daño y un SPA de 2 segundos es muy superior a una unidad con 1,500 de daño y un SPA de 5 segundos.
+
+<CardGrid cols={3}>
+  <Card title="Daño (ATK)">
+    - Determina el poder de impacto bruto
+    - Escala con el nivel y los rasgos
+    - **Crítico para Jefes**
+  </Card>
+  <Card title="SPA (Velocidad de Ataque)">
+    - Menor siempre es mejor
+    - Afecta la aplicación de estados
+    - **Clave para Limpieza de Oleadas**
+  </Card>
+  <Card title="Rango (Alcance)">
+    - Determina el área de cobertura
+    - Afecta la flexibilidad de posicionamiento
+    - **Vital para Soporte**
+  </Card>
+</CardGrid>
+
+En los parches de equilibrio de 2026, los desarrolladores han introducido unidades "Híbridas" que pueden atacar tanto a enemigos terrestres como aéreos, pero a menudo a costa de una eficiencia de estadísticas especializada.
+
+| Tipo de Unidad | Enfoque de Objetivo | Prioridad de Estadísticas | Roles Comunes |
+| :--- | :--- | :--- | :--- |
+| **Terrestre** | Solo Terrestre | Daño Alto / Daño en Área (AOE) | DPS Principal, Tanque |
+| **Aérea** | Solo Aérea | SPA Alto / Precisión | Antiaéreo, Francotirador |
+| **Híbrida** | Todos los Objetivos | Atributos Balanceados | Soporte Versátil |
+| **Soporte** | N/A | Rango / Mejoras (Buffs) | Economía, Buffer, Control de Masas (CC) |
+
+<Callout type="warning" title="Advertencia Crítica">
+No ignores la estadística de "Costo de Despliegue". Las unidades Míticas con estadísticas altas a menudo requieren una gran cantidad de dinero en el juego para ser desplegadas. Si tu equipo depende demasiado de unidades costosas, es posible que se te escapen enemigos en las primeras oleadas antes de que puedas colocar a tu primer defensor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Evolución y Escalado de Poder">
+
+La evolución es el método principal para trascender las **estadísticas base de las unidades de Anime Origins**. Cuando una unidad evoluciona, normalmente conserva su nivel pero obtiene un multiplicador masivo en sus atributos base. Además, las unidades evolucionadas a menudo desbloquean habilidades secundarias o "pasivas" que no se reflejan en la pantalla de estadísticas básicas pero que cambian drásticamente su rendimiento en combate.
+
+<Steps>
+  <Step num="1" title="Recolección de Recursos">
+    Reúne materiales de evolución específicos en los Desafíos Diarios y el Modo Historia. Los diferentes elementos requieren fragmentos de distintos colores.
+  </Step>
+  <Step num="2" title="Preparación de la Unidad">
+    Asegúrate de que la unidad base esté en su nivel máximo actual. La mayoría de las unidades Míticas requieren Nivel 80 o 100 antes de que la opción de evolución esté disponible en el laboratorio.
+  </Step>
+  <Step num="3" title="Trascendencia de Atributos">
+    Inicia el proceso de evolución. Esto restablecerá la unidad al nivel 1 en su nueva forma, pero sus estadísticas de Nivel 1 a menudo superarán sus estadísticas anteriores de nivel máximo.
+  </Step>
+</Steps>
+
+| Nivel de Evolución | Multiplicador de Daño | Reducción de SPA | Incremento de Rango |
+| :--- | :--- | :--- | :--- |
+| **Rango 1 (Alpha)** | 1.5x | -5% | +10% |
+| **Rango 2 (Beta)** | 2.5x | -12% | +25% |
+| **Rango 3 (Omega)** | 5.0x+ | -25% | +50% |
+
+<Callout type="success" title="Estrategia de Éxito">
+Revisa siempre la lista de "Objetos Requeridos" en el menú de evolución. Algunas unidades Míticas de 2026 requieren "Unidades Duplicadas" para alcanzar su forma final, así que no vendas tus invocaciones legendarias adicionales si son necesarias para una ruta de evolución Mítica.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cambio de Rasgos y Modificadores de Estadísticas">
+
+Los rasgos son la capa final de personalización para las **estadísticas de las unidades de Anime Origins**. Cuando invocas una unidad, viene con un rasgo aleatorio que proporciona una mejora basada en porcentajes. En la actualización de 2026, las rarezas de los rasgos se han ampliado, incluyendo rasgos ultra raros "Divinos" (Godly) que presentan efectos visuales únicos y aumentos de atributos extremadamente poderosos.
+
+| Nombre del Rasgo | Rareza | Aumento de Daño | Aumento de SPA | Aumento de Rango |
+| :--- | :--- | :--- | :--- | :--- |
+| **Poderoso** | 15.0% | +10% | 0% | 0% |
+| **Ágil** | 10.0% | 0% | +15% | 0% |
+| **Ojo de Águila** | 5.0% | 0% | 0% | +25% |
+| **Divino (Godly)** | 0.1% | +50% | +25% | +30% |
+
+<Callout type="info" title="Importante">
+Los rasgos del 0.1% no se tratan solo de estadísticas; a menudo incluyen "Animaciones Hermosas" que cambian la forma en que ataca la unidad. Estos son muy codiciados tanto por coleccionistas como por jugadores competitivos por su prestigio y poder.
+</Callout>
+
+Cambiar los rasgos requiere una moneda específica que a menudo se gana a través del Modo Infinito o las Misiones Semanales. Generalmente se recomienda cambiar los rasgos únicamente en unidades Míticas que ya hayan sido evolucionadas, ya que las mejoras porcentuales escalan mucho mejor en números base más altos.
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificación para la Creación de Equipos">
+
+Para maximizar tu eficiencia, tu equipo debe ser más que una simple colección de unidades con estadísticas altas. Necesitas una distribución equilibrada de atributos para manejar diferentes tipos de enemigos y composiciones de oleadas. Utiliza esta lista de verificación para asegurarte de que tu escuadrón esté listo para el contenido de juego tardío de 2026.
+
+<Checklist
+  id="team-composition"
+  title="Requisitos Óptimos del Escuadrón:"
+  items={[
+    "Al menos una unidad con un SPA inferior a 2.0s para una limpieza rápida de oleadas",
+    "Un 'Asesino de Jefes' dedicado con más de 10,000 de daño base",
+    "Una unidad Híbrida o específica de Aire con al menos 50 de Rango",
+    "Una unidad de soporte de ralentización/aturdimiento para maximizar tu ventana de DPS",
+    "Una unidad de generación de dinero (Economía) para financiar los costosos despliegues Míticos"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Pro">
+Si tienes dificultades con un mapa específico, observa las **estadísticas de las unidades enemigas de Anime Origins** para ese nivel. Si los enemigos tienen una armadura alta, prioriza las unidades con rasgos de "Daño Verdadero" o "Quemadura" en lugar de poder de ataque físico bruto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la estadística de unidad de Anime Origins más importante para principiantes?",
+    answer: "Para los principiantes, el Rango es la estadística más importante. Te permite colocar unidades en ubicaciones más seguras y asegura que puedan cubrir múltiples caminos, compensando la falta de daño bruto en el juego temprano."
+  },
+  {
+    question: "¿Cómo calculo el DPS real de mi unidad?",
+    answer: "El DPS real se calcula tomando el Daño Total y dividiéndolo por el SPA. Por ejemplo, una unidad con 5,000 de daño y un SPA de 2.5s tiene un DPS real de 2,000."
+  },
+  {
+    question: "¿Valen la pena los rasgos del 0.1% por el costo de cambio?",
+    answer: "Solo para tus unidades de DPS principal. El costo para obtener un rasgo del 0.1% es extremadamente alto, y aunque las estadísticas y animaciones son increíbles, un rasgo del 5% o 10% suele ser suficiente para la mayor parte del contenido de 2026."
+  },
+  {
+    question: "¿Evolucionar una unidad restablece su nivel?",
+    answer: "Sí, en Anime Origins, la evolución normalmente restablece la unidad al nivel 1. Sin embargo, las nuevas estadísticas base son tan superiores que la unidad seguirá siendo más fuerte de lo que era en su nivel máximo en la forma anterior."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Dominar las **estadísticas de las unidades de Anime Origins** es la diferencia entre ser un jugador casual y un defensor de primer nivel. Concéntrate en la evolución y en la optimización del SPA para dominar las tablas de clasificación de 2026.
+</Callout>
+
+</Section>

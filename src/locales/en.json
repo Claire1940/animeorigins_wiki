@@ -10,7 +10,15 @@
       "twitterDescription": "Anime Origins Wiki covers codes, units, tier lists, summons, traits, raids, and beginner guides for the Roblox anime tower defense game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "units": "Units",
+    "teams": "Teams",
+    "traits": "Traits",
+    "modes": "Modes",
+    "release": "Release"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -683,73 +691,73 @@
       "featured": "Featured Codes",
       "all": "All Codes"
     },
-    "beginner-guide": {
-      "title": "Anime Origins Beginner Guide",
-      "description": "Learn summoning, unit placement, upgrades, wave defense, and the main progression loop with a simple early-game route.",
-      "metaTitle": "Anime Origins Beginner Guide - How to Play & Progress",
-      "metaDescription": "Start Anime Origins the right way with summoning, team building, placement, upgrades, and a clear path through Story Mode and beyond.",
-      "categoryLabel": "BEGINNER GUIDE",
-      "whatIs": "What is the Anime Origins Beginner Guide?",
-      "whatIsDescription": "A step-by-step walkthrough that takes new players from their first summon to a consistent Story Mode team ready for harder content.",
-      "why": "Why follow a beginner guide?",
+    "guide": {
+      "title": "Anime Origins Guide",
+      "description": "Beginner and progression guides covering summoning, unit placement, upgrades, resource farming, and the path from Story Mode to endgame raids.",
+      "metaTitle": "Anime Origins Guide - Tips, Progression & How to Play",
+      "metaDescription": "Master Anime Origins with beginner tips, summon strategy, team building, gem farming, and progression routes from early game to raids.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Anime Origins Guide?",
+      "whatIsDescription": "A collection of walkthroughs that take players from their first summon to a consistent team ready for Infinite Mode, raids, and other endgame content.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Avoid Early Mistakes",
         "step1Description": "Spend resources on the right units from the start",
         "step2Title": "Build a Balanced Team",
         "step2Description": "Cover damage, range, and crowd control with a starter roster",
-        "step3Title": "Clear Story Mode",
-        "step3Description": "Progress naturally toward Infinite Mode and raids"
+        "step3Title": "Farm Resources Faster",
+        "step3Description": "Use proven gem and summon farming routes to progress quicker"
       },
       "featured": "Featured Guides",
-      "all": "All Beginner Guides"
+      "all": "All Guides"
     },
-    "unit-tier-list": {
-      "title": "Anime Origins Unit Tier List",
-      "description": "Rank every unit by damage, range, attack speed, abilities, and value across Story, Infinite, and Raid modes.",
-      "metaTitle": "Anime Origins Unit Tier List - Best Units Ranked",
-      "metaDescription": "Compare the best Anime Origins units for damage, range, and mode value. Find the strongest damage dealers, supports, and boss killers.",
-      "categoryLabel": "TIER LIST",
-      "whatIs": "What is the Anime Origins Unit Tier List?",
-      "whatIsDescription": "A ranking of units by their combat performance, rarities, and value in different game modes, so you know which units to prioritize.",
-      "why": "Why check the tier list?",
+    "units": {
+      "title": "Anime Origins Units",
+      "description": "Browse every summonable unit with rarity, stats, abilities, tier rankings, and evolution paths across Story, Infinite, and Raid modes.",
+      "metaTitle": "Anime Origins Units - Tier List, Stats & Evolution",
+      "metaDescription": "Explore every Anime Origins unit with rarity, stats, tier rankings, secret units, and evolution paths. Find the strongest damage dealers and supports.",
+      "categoryLabel": "UNITS",
+      "whatIs": "What are Anime Origins Units?",
+      "whatIsDescription": "The complete unit database covering rarities, summon rates, combat stats, tier rankings, and evolution paths so you know which units to summon and build.",
+      "why": "Why study the unit database?",
       "whySteps": {
         "step1Title": "Prioritize Summons",
         "step1Description": "Spend currency on the highest-value units first",
-        "step2Title": "Plan Your Team",
-        "step2Description": "Pick units that cover the roles you need",
-        "step3Title": "Match the Mode",
-        "step3Description": "Choose units that excel in Story, Infinite, or raids"
-      },
-      "featured": "Featured Rankings",
-      "all": "All Tier List Guides"
-    },
-    "units-and-summoning": {
-      "title": "Anime Origins Units and Summoning",
-      "description": "Browse every summonable unit with rarity, summon rates, banner availability, and known secret characters.",
-      "metaTitle": "Anime Origins Units & Summoning - Unit Database",
-      "metaDescription": "Explore every Anime Origins unit with rarity, summon rates, banner info, and secret characters. Learn how to spend summons wisely.",
-      "categoryLabel": "UNITS & SUMMONS",
-      "whatIs": "What are Anime Origins Units and Summoning?",
-      "whatIsDescription": "A complete database of summonable units, their rarities, summon probabilities, and the banners that feature them.",
-      "why": "Why study the unit database?",
-      "whySteps": {
-        "step1Title": "Know the Rates",
-        "step1Description": "Understand summon probabilities before you pull",
         "step2Title": "Spot Secret Units",
         "step2Description": "Identify the rarest characters and how to get them",
-        "step3Title": "Pick the Right Banner",
-        "step3Description": "Spend resources where they matter most"
+        "step3Title": "Plan Evolutions",
+        "step3Description": "Know which units are worth evolving for endgame content"
       },
       "featured": "Featured Units",
       "all": "All Units"
     },
-    "traits-and-rerolls": {
-      "title": "Anime Origins Traits and Rerolls",
-      "description": "Compare every trait, its combat effects, reroll priorities, and the best units to roll them on.",
-      "metaTitle": "Anime Origins Traits & Reroll Guide - Best Traits",
+    "teams": {
+      "title": "Anime Origins Teams",
+      "description": "The best Anime Origins team builds for Story Mode, Infinite Mode, raids, and the current meta, with role coverage and placement tips.",
+      "metaTitle": "Anime Origins Teams - Best Team Builds & Meta Comps",
+      "metaDescription": "Build winning Anime Origins teams for Story, Infinite, and raids. Find meta comps, role coverage, and placement tips for every game mode.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "What are Anime Origins Teams?",
+      "whatIsDescription": "Recommended team compositions that combine damage dealers, supports, and crowd-control units to clear Story Mode, Infinite Mode, and raids efficiently.",
+      "why": "Why use recommended teams?",
+      "whySteps": {
+        "step1Title": "Cover Every Role",
+        "step1Description": "Balance damage, range, buffs, and crowd control",
+        "step2Title": "Clear Harder Content",
+        "step2Description": "Use proven comps to beat raids and Infinite Mode waves",
+        "step3Title": "Adapt to the Meta",
+        "step3Description": "Stay current with the strongest team builds after each update"
+      },
+      "featured": "Featured Teams",
+      "all": "All Teams"
+    },
+    "traits": {
+      "title": "Anime Origins Traits",
+      "description": "Compare every trait, its combat effects, reroll priorities, and the best units to roll them on for maximum performance.",
+      "metaTitle": "Anime Origins Traits - Best Traits & Reroll Guide",
       "metaDescription": "Master Anime Origins traits and rerolls. Compare effects, priorities, and the best units for damage, cooldown, and range traits.",
-      "categoryLabel": "TRAITS & REROLLS",
-      "whatIs": "What are Anime Origins Traits and Rerolls?",
+      "categoryLabel": "TRAITS",
+      "whatIs": "What are Anime Origins Traits?",
       "whatIsDescription": "Traits are stat-boosting modifiers for units. Rerolls let you replace a trait with another roll to optimize combat performance.",
       "why": "Why optimize traits?",
       "whySteps": {
@@ -761,36 +769,16 @@
         "step3Description": "Target the rarest trait rolls for endgame carries"
       },
       "featured": "Featured Traits",
-      "all": "All Trait Guides"
+      "all": "All Traits"
     },
-    "evolution-guide": {
-      "title": "Anime Origins Evolution Guide",
-      "description": "Learn how unit evolution works, including required materials, eligible characters, and the best upgrade priorities.",
-      "metaTitle": "Anime Origins Evolution Guide - Materials & Paths",
-      "metaDescription": "Complete Anime Origins evolution guide with material requirements, eligible units, and the smartest upgrade paths for your team.",
-      "categoryLabel": "EVOLUTION",
-      "whatIs": "What is the Anime Origins Evolution Guide?",
-      "whatIsDescription": "A full breakdown of how to evolve eligible units into stronger forms, what materials you need, and which evolutions are worth the cost.",
-      "why": "Why plan your evolutions?",
-      "whySteps": {
-        "step1Title": "Upgrade permanently",
-        "step1Description": "Turn good units into stronger advanced forms",
-        "step2Title": "Save Rare Materials",
-        "step2Description": "Reserve evolution resources for main-team units",
-        "step3Title": "Unlock New Abilities",
-        "step3Description": "Gain upgraded attacks and combat effects"
-      },
-      "featured": "Featured Evolutions",
-      "all": "All Evolution Guides"
-    },
-    "story-infinite-and-raids": {
-      "title": "Anime Origins Story, Infinite and Raids",
-      "description": "Master Story Mode, Infinite Mode, raids, and multiplayer challenges with team setups, placement tips, and reward focus.",
-      "metaTitle": "Anime Origins Modes Guide - Story, Infinite & Raids",
-      "metaDescription": "Conquer every Anime Origins mode with recommended teams, placement tips, and reward strategies for Story, Infinite, raids, and multiplayer.",
-      "categoryLabel": "GAME MODES",
-      "whatIs": "What are the Anime Origins Game Modes?",
-      "whatIsDescription": "A guide to the core modes — Story, Infinite, and Raids — plus multiplayer challenges, with objectives, teams, and placement advice for each.",
+    "modes": {
+      "title": "Anime Origins Modes",
+      "description": "Master Story Mode, Infinite Mode, raids, challenges, and bosses with team setups, placement tips, and reward strategies.",
+      "metaTitle": "Anime Origins Modes - Story, Infinite, Raids & Bosses",
+      "metaDescription": "Conquer every Anime Origins mode with recommended teams, placement tips, and reward strategies for Story, Infinite, raids, challenges, and bosses.",
+      "categoryLabel": "MODES",
+      "whatIs": "What are the Anime Origins Modes?",
+      "whatIsDescription": "A guide to the core modes — Story, Infinite, Raids, Challenges, and Bosses — with objectives, recommended teams, and placement advice for each.",
       "why": "Why learn every mode?",
       "whySteps": {
         "step1Title": "Match Your Team",
@@ -800,28 +788,28 @@
         "step3Title": "Earn Better Rewards",
         "step3Description": "Focus on the modes that drop what you need"
       },
-      "featured": "Featured Mode Guides",
-      "all": "All Mode Guides"
+      "featured": "Featured Modes",
+      "all": "All Modes"
     },
-    "updates": {
-      "title": "Anime Origins Updates",
-      "description": "Track new units, banners, balance changes, modes, events, and fixes, each tied to its official announcement.",
-      "metaTitle": "Anime Origins Updates - Patch Notes & New Content",
-      "metaDescription": "Follow every Anime Origins update — new units, traits, modes, balance changes, and fixes — with links to the official announcements.",
-      "categoryLabel": "UPDATES",
-      "whatIs": "What are Anime Origins Updates?",
-      "whatIsDescription": "A running log of new units, banners, traits, modes, balance changes, and fixes, each connected to its official source.",
-      "why": "Why follow Anime Origins updates?",
+    "release": {
+      "title": "Anime Origins Release",
+      "description": "Track the Anime Origins release date, early access, trailers, first looks, and every update with new units, modes, and balance changes.",
+      "metaTitle": "Anime Origins Release - Date, Trailer & Updates",
+      "metaDescription": "Follow the Anime Origins release timeline — release date, early access, trailers, first looks, and updates with new units, modes, and fixes.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Anime Origins Release page?",
+      "whatIsDescription": "A running log of the release date, early access windows, trailers, first-look reveals, and game updates covering new units, modes, and balance changes.",
+      "why": "Why follow Anime Origins release news?",
       "whySteps": {
-        "step1Title": "Catch New Units",
-        "step1Description": "See newly revealed units and banners first",
-        "step2Title": "Adapt to Balance Changes",
-        "step2Description": "Adjust your team as meta shifts happen",
-        "step3Title": "Plan Around Releases",
-        "step3Description": "Know what content is coming and when"
+        "step1Title": "Catch the Release",
+        "step1Description": "Know the release date and early access details first",
+        "step2Title": "Watch New Trailers",
+        "step2Description": "See first looks and reveals as they drop",
+        "step3Title": "Track Updates",
+        "step3Description": "Stay on top of new units, modes, and balance changes"
       },
-      "featured": "Featured Updates",
-      "all": "All Updates"
+      "featured": "Featured Release News",
+      "all": "All Release News"
     }
   }
 }

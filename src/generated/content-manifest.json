@@ -1,1 +1,330 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "anime-origins-codes",
+        "file": "anime-origins-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-origins-beginner-guide",
+        "file": "anime-origins-beginner-guide"
+      },
+      {
+        "slug": "anime-origins-gem-farming",
+        "file": "anime-origins-gem-farming"
+      },
+      {
+        "slug": "anime-origins-how-to-play",
+        "file": "anime-origins-how-to-play"
+      },
+      {
+        "slug": "anime-origins-noob-to-pro",
+        "file": "anime-origins-noob-to-pro"
+      },
+      {
+        "slug": "anime-origins-progression-guide",
+        "file": "anime-origins-progression-guide"
+      },
+      {
+        "slug": "anime-origins-resource-guide",
+        "file": "anime-origins-resource-guide"
+      },
+      {
+        "slug": "anime-origins-summon-guide",
+        "file": "anime-origins-summon-guide"
+      },
+      {
+        "slug": "anime-origins-tips-and-tricks",
+        "file": "anime-origins-tips-and-tricks"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-origins-bosses",
+        "file": "anime-origins-bosses"
+      },
+      {
+        "slug": "anime-origins-challenges",
+        "file": "anime-origins-challenges"
+      },
+      {
+        "slug": "anime-origins-infinite-mode",
+        "file": "anime-origins-infinite-mode"
+      },
+      {
+        "slug": "anime-origins-raids",
+        "file": "anime-origins-raids"
+      },
+      {
+        "slug": "anime-origins-story-mode",
+        "file": "anime-origins-story-mode"
+      }
+    ],
+    "release": [
+      {
+        "slug": "anime-origins-early-access",
+        "file": "anime-origins-early-access"
+      },
+      {
+        "slug": "anime-origins-first-look",
+        "file": "anime-origins-first-look"
+      },
+      {
+        "slug": "anime-origins-release-date",
+        "file": "anime-origins-release-date"
+      },
+      {
+        "slug": "anime-origins-trailer",
+        "file": "anime-origins-trailer"
+      },
+      {
+        "slug": "anime-origins-updates",
+        "file": "anime-origins-updates"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "anime-origins-best-team",
+        "file": "anime-origins-best-team"
+      },
+      {
+        "slug": "anime-origins-meta-team",
+        "file": "anime-origins-meta-team"
+      },
+      {
+        "slug": "anime-origins-story-team",
+        "file": "anime-origins-story-team"
+      },
+      {
+        "slug": "anime-origins-team-build",
+        "file": "anime-origins-team-build"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-origins-best-traits",
+        "file": "anime-origins-best-traits"
+      },
+      {
+        "slug": "anime-origins-trait-rerolls",
+        "file": "anime-origins-trait-rerolls"
+      },
+      {
+        "slug": "anime-origins-trait-tier-list",
+        "file": "anime-origins-trait-tier-list"
+      },
+      {
+        "slug": "anime-origins-traits",
+        "file": "anime-origins-traits"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-origins-best-units",
+        "file": "anime-origins-best-units"
+      },
+      {
+        "slug": "anime-origins-evolution-guide",
+        "file": "anime-origins-evolution-guide"
+      },
+      {
+        "slug": "anime-origins-evolution-materials",
+        "file": "anime-origins-evolution-materials"
+      },
+      {
+        "slug": "anime-origins-how-to-evolve-units",
+        "file": "anime-origins-how-to-evolve-units"
+      },
+      {
+        "slug": "anime-origins-legendary-units",
+        "file": "anime-origins-legendary-units"
+      },
+      {
+        "slug": "anime-origins-secret-units",
+        "file": "anime-origins-secret-units"
+      },
+      {
+        "slug": "anime-origins-tier-list",
+        "file": "anime-origins-tier-list"
+      },
+      {
+        "slug": "anime-origins-unit-list",
+        "file": "anime-origins-unit-list"
+      },
+      {
+        "slug": "anime-origins-unit-showcase",
+        "file": "anime-origins-unit-showcase"
+      },
+      {
+        "slug": "anime-origins-unit-stats",
+        "file": "anime-origins-unit-stats"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "anime-origins-codes",
+        "file": "anime-origins-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-origins-beginner-guide",
+        "file": "anime-origins-beginner-guide"
+      },
+      {
+        "slug": "anime-origins-gem-farming",
+        "file": "anime-origins-gem-farming"
+      },
+      {
+        "slug": "anime-origins-how-to-play",
+        "file": "anime-origins-how-to-play"
+      },
+      {
+        "slug": "anime-origins-noob-to-pro",
+        "file": "anime-origins-noob-to-pro"
+      },
+      {
+        "slug": "anime-origins-progression-guide",
+        "file": "anime-origins-progression-guide"
+      },
+      {
+        "slug": "anime-origins-resource-guide",
+        "file": "anime-origins-resource-guide"
+      },
+      {
+        "slug": "anime-origins-summon-guide",
+        "file": "anime-origins-summon-guide"
+      },
+      {
+        "slug": "anime-origins-tips-and-tricks",
+        "file": "anime-origins-tips-and-tricks"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "anime-origins-bosses",
+        "file": "anime-origins-bosses"
+      },
+      {
+        "slug": "anime-origins-challenges",
+        "file": "anime-origins-challenges"
+      },
+      {
+        "slug": "anime-origins-infinite-mode",
+        "file": "anime-origins-infinite-mode"
+      },
+      {
+        "slug": "anime-origins-raids",
+        "file": "anime-origins-raids"
+      },
+      {
+        "slug": "anime-origins-story-mode",
+        "file": "anime-origins-story-mode"
+      }
+    ],
+    "release": [
+      {
+        "slug": "anime-origins-early-access",
+        "file": "anime-origins-early-access"
+      },
+      {
+        "slug": "anime-origins-first-look",
+        "file": "anime-origins-first-look"
+      },
+      {
+        "slug": "anime-origins-release-date",
+        "file": "anime-origins-release-date"
+      },
+      {
+        "slug": "anime-origins-trailer",
+        "file": "anime-origins-trailer"
+      },
+      {
+        "slug": "anime-origins-updates",
+        "file": "anime-origins-updates"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "anime-origins-best-team",
+        "file": "anime-origins-best-team"
+      },
+      {
+        "slug": "anime-origins-meta-team",
+        "file": "anime-origins-meta-team"
+      },
+      {
+        "slug": "anime-origins-story-team",
+        "file": "anime-origins-story-team"
+      },
+      {
+        "slug": "anime-origins-team-build",
+        "file": "anime-origins-team-build"
+      }
+    ],
+    "traits": [
+      {
+        "slug": "anime-origins-best-traits",
+        "file": "anime-origins-best-traits"
+      },
+      {
+        "slug": "anime-origins-trait-rerolls",
+        "file": "anime-origins-trait-rerolls"
+      },
+      {
+        "slug": "anime-origins-trait-tier-list",
+        "file": "anime-origins-trait-tier-list"
+      },
+      {
+        "slug": "anime-origins-traits",
+        "file": "anime-origins-traits"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-origins-best-units",
+        "file": "anime-origins-best-units"
+      },
+      {
+        "slug": "anime-origins-evolution-guide",
+        "file": "anime-origins-evolution-guide"
+      },
+      {
+        "slug": "anime-origins-evolution-materials",
+        "file": "anime-origins-evolution-materials"
+      },
+      {
+        "slug": "anime-origins-how-to-evolve-units",
+        "file": "anime-origins-how-to-evolve-units"
+      },
+      {
+        "slug": "anime-origins-legendary-units",
+        "file": "anime-origins-legendary-units"
+      },
+      {
+        "slug": "anime-origins-secret-units",
+        "file": "anime-origins-secret-units"
+      },
+      {
+        "slug": "anime-origins-tier-list",
+        "file": "anime-origins-tier-list"
+      },
+      {
+        "slug": "anime-origins-unit-list",
+        "file": "anime-origins-unit-list"
+      },
+      {
+        "slug": "anime-origins-unit-showcase",
+        "file": "anime-origins-unit-showcase"
+      },
+      {
+        "slug": "anime-origins-unit-stats",
+        "file": "anime-origins-unit-stats"
+      }
+    ]
+  }
+}

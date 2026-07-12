@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Origins Bosses: Raid Encounters & Battle Strategies",
+  description: "Master all anime origins bosses with our comprehensive strategic guide. Learn raid mechanics, boss movement patterns, and optimal team composition.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2a1b4e/fff?text=Raid+Boss+Strategies",
+  date: "2026-07-13",
+  author: "anime origins Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime origins bosses**: Powerful endgame threats requiring specific placements and unit synergies to defeat.
+- **Raid preparation**: Ensure your team has high single-target DPS, slow/stun utility, and an active economy generator.
+- **Critical tactic**: Never place expensive units first; focus on cheap early defense to survive the initial waves.
+- **Optimal synergy**: Pair heavy damage dealers like Meliodas (Assault Mode) with reliable crowd-control support.
+</Callout>
+
+<Section icon={Swords} title="Anime Origins Bosses Overview">
+
+Defeating the powerful **anime origins bosses** is the ultimate test of your strategic capabilities. Unlike standard lane enemies, bosses possess massive health pools, elemental resistances, and special mechanics that can quickly overwhelm an unprepared defense. To succeed in high-level Raids and deep Infinite Mode runs, you must understand how these major threats behave and how to construct a team capable of handling their immense pressure.
+
+| Boss Type | Primary Threat | Best Counter | Difficulty |
+|---|---|---|---|
+| **Story Boss** | High speed, Lane rushing | Cheap slows, High active DPS | Medium |
+| **Raid Boss** | Massive HP, Lane stun abilities | Evolved damage units, Stun-immune setups | Hard |
+| **Infinite Boss** | Infinite scaling, Shielded phases | Multi-hit attackers, Max-upgrade carries | Very Hard |
+
+<Callout type="warning" title="Threat Warning">
+Bosses in Raids can temporarily disable your towers. Spacing your primary damage dealers out along the path prevents a single boss ability from neutralizing your entire defense.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Raid Boss Mechanics and Strategies">
+
+Raid encounters feature the most complex mechanics among all **anime origins bosses**. Success in these arenas requires strict coordination, precise upgrade timing, and a deep understanding of enemy pathing. You cannot rely on raw damage alone; utility and positioning play equal roles in securing victory.
+
+<CardGrid cols={3}>
+  <Card title="Phase 1: Entry">
+    - **Spawn behavior**: Boss enters with small support waves.
+    - **Strategy**: Focus on clearing the minor minions first.
+    - **Priority**: Save high-damage active abilities.
+  </Card>
+  <Card title="Phase 2: Shielding">
+    - **Spawn behavior**: Boss gains a temporary damage barrier.
+    - **Strategy**: Use high attack-speed units to break shields.
+    - **Priority**: Maintain slow and freeze effects.
+  </Card>
+  <Card title="Phase 3: Enrage">
+    - **Spawn behavior**: Movement speed increases by 50%.
+    - **Strategy**: Maximum upgrade investment on your main carry.
+    - **Priority**: Chain stun abilities continuously.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Positioning">
+Place your slow-inflicting support units right at the beginning of the longest straight paths. This keeps the boss inside the attack range of your heavy hitters like Meliodas or Yuta Okkotsu for the maximum possible duration.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Boss Battle Walkthrough">
+
+Follow this tactical sequence to successfully manage and defeat high-difficulty bosses during active matches.
+
+<Steps>
+  <Step num="1" title="Establish Your Economy First">
+    Deploy your economy-generating units during the initial waves. You need a massive cash flow to afford the expensive late-game upgrades required to damage high-tier bosses.
+  </Step>
+  <Step num="2" title="Create a Choke Point">
+    Identify corners or overlapping lanes on the map. Place your crowd-control units here to clump the boss and surrounding enemies together.
+  </Step>
+  <Step num="3" title="Deploy Your Main Carry">
+    Place your highest single-target damage unit, such as Yuta Okkotsu, near the center of your choke point to maximize their total active attack time.
+  </Step>
+  <Step num="4" title="Execute Target Upgrades">
+    Do not spread your gold evenly. Fully upgrade your primary damage dealer first to unlock their advanced, high-scaling combat forms.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Victory Tip">
+Once the boss enters the final stretch of the track, sell your early-game defense units and rebuild them further down the line to get one last round of damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimal Team Composition for Bosses">
+
+Defeating endgame bosses requires a highly structured team. Every unit must serve a distinct purpose, balancing raw damage with crowd-control utility and economic sustainability.
+
+| Unit Role | Recommended Choice | Key Contribution | Priority |
+|---|---|---|---|
+| **Main DPS** | Yuta Okkotsu (Secret) | Massive single-target boss damage | High |
+| **Sustained AoE** | Meliodas (Assault Mode) | Clears supporting minions quickly | High |
+| **Crowd Control** | Starrk (Ranged) | Slows boss movement along the path | Medium |
+| **Economy** | Standard Money Unit | Generates cash for expensive upgrades | High |
+
+<Callout type="info" title="Trait Optimization">
+When optimizing your team, look for traits that reduce cooldowns or increase raw damage. Cooldown reduction is exceptionally powerful for support units, allowing them to keep bosses permanently slowed.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Raid Boss Preparation Checklist">
+
+Before launching into a difficult Raid or Infinite Mode match, ensure your account and team roster meet these essential preparation milestones.
+
+<Checklist
+  id="boss-prep-goals"
+  title="Pre-Battle Checklist:"
+  items={[
+    "Evolve at least one primary damage dealer to their advanced form",
+    "Equip your main carry with a high-tier Damage or Cooldown trait",
+    "Coordinate roles with your teammates if playing in multiplayer",
+    "Level up your support units to increase their baseline attack range",
+    "Unlock free private servers to practice specific placement routes safely"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to defeat high-HP anime origins bosses?",
+    answer: "Focus on upgrading a single high-tier damage unit like Yuta Okkotsu rather than placing multiple low-level units. Combine this main damage dealer with support units that slow or freeze the boss."
+  },
+  {
+    question: "How do I stop bosses from disabling my defense units?",
+    answer: "Avoid grouping all of your towers in one tight cluster. Space your primary damage units along the track so that a single boss ability cannot stun your entire defense roster at the same time."
+  },
+  {
+    question: "Are private servers useful for practicing boss fights?",
+    answer: "Yes. Private servers are completely free and provide the perfect environment to test unit placements, upgrade orders, and team compositions without any external interference."
+  },
+  {
+    question: "Which traits are best for units targeting raid bosses?",
+    answer: "Traits that boost raw damage or reduce attack cooldowns are ideal. High-rarity traits, especially the 0.1% Secret Trait, offer massive stat increases that make boss encounters significantly easier."
+  }
+]} />
+
+</Section>

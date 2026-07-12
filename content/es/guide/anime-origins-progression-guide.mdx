@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de progresión de Anime Origins: Subir de nivel, unidades meta y rasgos",
+  description: "Domina Anime Origins con esta guía de progresión paso a paso. Aprende a subir de nivel rápidamente, conseguir los mejores rasgos y crear un equipo meta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Anime+Origins+Progression+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Origins"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de progresión de Anime Origins**: Concéntrate en completar el Modo Historia primero para desbloquear raids y sistemas avanzados.
+- **Unidad meta principal**: Yuta (Cursed Lover) es el Mítico de lanzamiento principal debido a su enorme daño en área (AoE) y habilidades de copia.
+- **Mejor rasgo**: Inmortal (Immortal) es el rasgo secreto definitivo, que ofrece restauración de poder base y mecánicas de muerte instantánea.
+- **Obstáculo de progresión**: Lleva siempre al menos una unidad de colina/híbrida como Akeno para lidiar con los enemigos voladores.
+- **Estrategia de reroll**: Prioriza las estadísticas de daño y rango para garantizar limpiezas de oleadas altamente eficientes.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en Anime Origins">
+
+Anime Origins es un juego de defensa de torres de alta calidad que combina la colocación estratégica de unidades con efectos visuales llamativos. Para comenzar tu viaje de manera eficiente, debes comprender el ciclo fundamental: invocar unidades, conseguir rasgos (traits), mejorar estadísticas y completar niveles progresivos. Tu objetivo inicial es construir un equipo equilibrado que pueda lidiar con enemigos terrestres, voladores y jefes.
+
+**Puntos destacados del video:**
+- **Configuración inicial**: Elegir tu personaje inicial y utilizar los giros diarios para obtener recursos.
+- **Ciclo de invocación**: Cómo administrar las gemas y apuntar a las unidades Míticas de primer nivel.
+- **Mecánicas de juego**: Comprender la colocación de unidades, los estilos de ataque y las estructuras de las oleadas.
+
+<YouTubeEmbed videoId="wQVrE_Mdhn0" title="This New Anime Game Has INSANE Quality... (Anime Origins Roblox)" />
+
+Cuando entres por primera vez al lobby, asegúrate de reclamar tu giro diario y cualquier recompensa de lanzamiento activa. Estos recursos gratuitos proporcionan las gemas necesarias para asegurar tus primeras unidades de alto nivel.
+
+| Característica | Descripción | Condición de desbloqueo |
+|--- |--- |--- |
+| **Modo Historia** | Niveles de la campaña principal para obtener EXP y materiales | Disponible en el Nivel 1 |
+| **Raids (Incursiones)** | Batallas de alta dificultad que otorgan unidades exclusivas | Completar Karakura Town |
+| **Infinity Castle** | Supervivencia de oleadas infinitas con recompensas de clasificación | Completar West City |
+| **Niveles de Leyenda** | Mapas de desafío extremo para obtener remanentes de evolución | Completar el Modo Historia |
+
+<Callout type="tip" title="Consejo de rutina diaria">
+Completa siempre tus misiones diarias y usa tus giros gratuitos antes de entrar a las partidas. Las gemas adicionales y las fichas de reroll se acumulan rápidamente, ahorrándote horas de farmeo más adelante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Unidades míticas y clasificaciones del meta">
+
+Construir una alineación poderosa es el núcleo de esta **guía de progresión de Anime Origins**. Con una selección de unidades sorprendentemente profunda desde el lanzamiento, el meta gira en torno a asegurar Míticos de alto daño y apoyarlos con personajes de utilidad.
+
+Para optimizar la composición de tu equipo, debes entender los roles de tus unidades. Las unidades terrestres se encargan de la mayor parte de las oleadas, mientras que las unidades de colina son obligatorias para manejar las amenazas voladoras que esquivan las defensas terrestres.
+
+| Nombre de la unidad | Rareza | Tipo | Rol principal | Calificación de rendimiento |
+|--- |--- |--- |--- |--- |
+| **Yuta (Cursed Lover)** | Mítico | Terrestre | DPS en área / Copiador | ★★★★★ (Tier S) |
+| **Akeno** | Mítico | Colina | Antiaéreo / Control de masas | ★★★★★ (Tier S) |
+| **Toji** | Mítico | Terrestre | DPS solitario / Auto-mejora | ★★★★☆ (Tier A) |
+| **Shinobu** | Mítico | Terrestre | Daño de veneno en el tiempo | ★★★★☆ (Tier A) |
+| **Naruto (Cloak)** | Legendario | Terrestre | DPS rápido a un solo objetivo | ★★★☆☆ (Tier B) |
+
+<CardGrid cols={3}>
+  <Card title="Yuta (Cursed Lover)">
+    - **Enorme daño en área**: Manifiesta cabezas más débiles para disparar rayos de amor.
+    - **Copia de utilidad**: Puede copiar hasta cuatro habilidades activas de los aliados.
+    - **Alto escalado**: Comienza con 2,000 de daño base en el nivel uno.
+  </Card>
+  <Card title="Akeno (Unidad de colina)">
+    - **Especialista antiaéreo**: Esencial para limpiar oleadas de voladores.
+    - **Control de masas**: Ralentiza a los objetivos que se mueven rápido.
+    - **Alto límite de colocación**: Posicionamiento flexible en todos los mapas.
+  </Card>
+  <Card title="Toji (Lone Wolf)">
+    - **Autosuficiente**: No puede recibir mejoras pero obtiene estadísticas base masivas.
+    - **Alta penetración**: Inflige un 35% de penetración y un 35% de daño crítico.
+    - **Ataque en cono**: Limpia carriles estrechos con facilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia antiaérea">
+No descuides las unidades de colina. Muchos jugadores experimentan derrotas tempranas en el Modo Historia porque solo invocan unidades terrestres. Mantén siempre al menos una unidad antiaérea confiable como Akeno en tu equipo activo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sistema de rasgos y reroll de estadísticas">
+
+Los rasgos (traits) y las estadísticas pueden definir el éxito o fracaso de tus unidades en el contenido de alto nivel. El reroll te permite personalizar el rendimiento de tus unidades, transformando un Mítico estándar en una fuerza absoluta.
+
+### Lista de niveles de rasgos y efectos
+
+El sistema de rasgos presenta varios niveles, que van desde mejoras de utilidad básicas hasta rasgos secretos que rompen el juego. El objetivo final para cualquier unidad de DPS principal es asegurar un rasgo secreto.
+
+| Nombre del rasgo | Rareza | Efectos principales | Recomendado para |
+|--- |--- |--- |--- |
+| **Immortal** | Secreto (0.1%) | Restaura el poder base, mata instantáneamente a los enemigos cercanos, empuja/ralentiza | DPS principal (Yuta) |
+| **Ascendant** | Mítico | Escala sustancialmente el daño y la velocidad de ataque | Cualquier unidad de DPS |
+| **Overseer** | Mítico | Inflige daño verdadero adicional en cada ataque | Unidades de alta velocidad |
+| **Hustler** | Raro | Aumenta el rango y la generación de ingresos | Utilidad / Soporte |
+
+### Prioridad de reroll de estadísticas
+
+Además de los rasgos, puedes hacer reroll a las estadísticas individuales (Daño, Rango y Velocidad de ataque) desde el grado F hasta el SS.
+
+| Estadística | Prioridad | Grado objetivo | Impacto |
+|--- |--- |--- |--- |
+| **Daño** | Alta | S / SS | Maximiza el escalado base y el rendimiento de habilidades |
+| **Rango** | Media | S / SS | Aumenta la cobertura, crucial para unidades de ataque lento |
+| **Velocidad de ataque** | Alta | S / SS | Reduce el enfriamiento de los ataques, esencial para aplicar estados |
+
+<Callout type="success" title="Estrategia de reroll">
+Configura tus ajustes de auto-reroll para que se detengan en los rasgos **Immortal** o **Ascendant**. Al hacer reroll de estadísticas, prioriza asegurar primero un grado S o SS en Daño, ya que esto escala mejor con la evolución de la unidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de progresión paso a paso">
+
+Para progresar de manera eficiente durante el juego temprano y medio, sigue esta ruta estructurada. Este camino garantiza que desbloquees sistemas críticos sin desperdiciar recursos valiosos.
+
+<Steps>
+  <Step num="1" title="Asegura gemas iniciales">
+    Usa tus giros gratuitos iniciales e ingresa cualquier código de lanzamiento activo. Gasta tus gemas iniciales en el banner para asegurar al menos una unidad DPS de alto nivel (idealmente un Mítico o un Legendario fuerte).
+  </Step>
+  <Step num="2" title="Completa West City y Karakura Town">
+    Supera la dificultad normal de los dos primeros mapas de la historia. Concéntrate en mejorar tu unidad DPS principal durante las partidas en lugar de invocar muchas unidades débiles de nivel uno.
+  </Step>
+  <Step num="3" title="Adquiere una unidad de colina">
+    Antes de intentar los niveles más difíciles de Karakura Town, invoca una unidad de colina confiable como Akeno. Esto evita que los enemigos voladores se filtren a través de tus defensas.
+  </Step>
+  <Step num="4" title="Farmea Raids de Nivel 2 y Nivel 3">
+    Una vez completado el Modo Historia, pasa a las Raids. Agrúpate con otros jugadores para enfrentar las Raids de Nivel 3, que tienen una probabilidad de obtención del 3% para personajes exclusivos como Ban.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Progresión cooperativa">
+Si te encuentras atascado en un nivel de historia o Raid difícil, usa el sistema de emparejamiento público. Las partidas cooperativas permiten a los jugadores combinar las fortalezas de sus unidades, haciendo que los jefes difíciles sean mucho más fáciles de manejar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y lista de verificación del juego tardío">
+
+Una vez que hayas establecido un equipo sólido de Míticos al nivel máximo, tu enfoque cambiará al juego tardío (endgame). Esto implica evolucionar tus unidades, subir en la clasificación del Infinity Castle y perfeccionar tus rasgos.
+
+<Checklist
+  id="endgame-milestones"
+  title="Lista de verificación de progresión del juego tardío:"
+  items={[
+    "Evolucionar a Yuta (Cursed Lover) usando los remanentes recolectados",
+    "Asegurar el rasgo Immortal en tu unidad DPS principal",
+    "Conseguir estadísticas de Daño SS y Rango SS en tus tres mejores unidades",
+    "Obtener a Ban de las raids de Nivel 3 de Seven Deadly Sins",
+    "Alcanzar el piso 50 o superior en el Infinity Castle",
+    "Crear un equipo dedicado al farmeo con rasgos que aumenten los ingresos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de conseguir gemas en Anime Origins?",
+    answer: "La forma más rápida de ganar gemas es completando los niveles del Modo Historia por primera vez, terminando las misiones diarias y subiendo los pisos en el Infinity Castle."
+  },
+  {
+    question: "¿Cómo funciona la habilidad de copia de Yuta?",
+    answer: "Yuta puede seleccionar una unidad aliada en el campo y copiar una de sus habilidades activas. Puede almacenar hasta cuatro habilidades copiadas a la vez, conservando sus efectos y enfriamientos originales."
+  },
+  {
+    question: "¿Dónde se consiguen los remanentes de evolución?",
+    answer: "Los remanentes de evolución se obtienen al completar los Niveles de Leyenda y las Raids de alto nivel. Cada personaje requiere remanentes específicos para evolucionar."
+  },
+  {
+    question: "¿Hay unidades de farmeo/ingresos en el juego?",
+    answer: "Sí, unidades como Bulma sirven como unidades de farmeo para generar dinero extra durante las partidas. Además, puedes conseguir el rasgo Hustler en las unidades de soporte para aumentar tus ingresos pasivos."
+  }
+]} />
+
+</Section>

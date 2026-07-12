@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "units": "Unidades",
+    "teams": "Equipos",
+    "traits": "Rasgos",
+    "modes": "Modos",
+    "release": "Lanzamiento"
+  }
+}

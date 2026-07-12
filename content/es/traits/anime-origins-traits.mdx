@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rasgos de Anime Origins: Guía de Reroll y Multiplicadores de Estadísticas",
+  description: "Optimiza tus rasgos de Anime Origins con nuestra guía completa. Explora listas de niveles, probabilidades de reroll y estrategias de evolución.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Origins+Traits",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Origins",
+  keywords: "Anime Origins, rasgos, reroll, multiplicadores de estadísticas, guía de juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sistema central**: Optimizar los **rasgos de Anime Origins** es esencial para superar el contenido de dificultad alta del endgame.
+- **Multiplicador clave**: Los rasgos Míticos ofrecen hasta un multiplicador de daño de 2.5x, pero tienen una tasa de obtención del 0.1%.
+- **Estrategia de reroll**: Prioriza relanzar rasgos en unidades de DPS antes de mejorarlas a rareza mítica.
+- **Impacto de la evolución**: Los rasgos estándar se mantienen durante la evolución, pero algunos rasgos únicos específicos podrían cambiar.
+</Callout>
+
+<Section icon={Map} title="Rasgos de Anime Origins: Mecánicas Principales y Conceptos Básicos de Reroll">
+
+Los rasgos son modificadores pasivos asignados a las unidades al ser invocadas en Anime Origins. Estos modificadores pueden alterar drásticamente la efectividad de una unidad al aumentar su daño, rango, velocidad de ataque o utilidad. Asegurar el rasgo correcto en tus unidades de alta rareza es el método principal para escalar el poder de tu equipo y enfrentar los desafíos de las etapas finales del juego.
+
+**Puntos destacados del video:**
+- Descripción general de la nueva jugabilidad de tower defense de Anime Origins e interfaz visual.
+- Muestra del banner de invocación, índice de personajes y unidades míticas.
+- Demostración del sistema de reroll de rasgos, mostrando la animación del rasgo mítico del 0.1%.
+- Comparación de la calidad del juego y las animaciones de las unidades con los juegos clásicos de tower defense.
+
+<YouTubeEmbed videoId="qXCW-lsSvhE" title="¡Este *NUEVO* TOWER DEFENSE DE ANIME ES LA CIMA ABSOLUTA! Primer vistazo a la nueva leyenda: Anime Origins" />
+
+Comprender las mecánicas básicas de los rasgos es el primer paso hacia la optimización. Cuando invocas una unidad, esta obtiene aleatoriamente un rasgo de un conjunto de opciones comunes, raras, épicas, legendarias y míticas. Mientras que los rasgos comunes ofrecen ajustes menores de estadísticas, los rasgos míticos introducen mecánicas únicas como expansiones del área de efecto, reducciones de enfriamiento o multiplicadores de daño masivos.
+
+<Callout type="warning" title="Advertencia de Reroll">
+Los tokens de reroll son recursos escasos. Evita gastar tokens en unidades comunes o raras, ya que estas unidades son reemplazadas rápidamente en el meta. Guarda tus recursos para unidades míticas y legendarias.
+</Callout>
+
+El costo de relanzar (reroll) depende de la rareza actual de la unidad y su etapa de evolución. Las unidades en etapas tempranas requieren menos tokens, lo que hace que sea muy eficiente buscar rasgos óptimos antes de iniciar el proceso de evolución.
+
+</Section>
+
+<Section icon={Swords} title="Niveles de Rasgos: Multiplicadores de Estadísticas y Probabilidades de Reroll">
+
+Para construir la alineación más eficiente, los jugadores deben comprender las bonificaciones estadísticas exactas y las probabilidades de obtención asociadas con cada nivel de rasgo. La tabla a continuación detalla los rasgos principales disponibles en el juego, su rareza, ajustes estadísticos y probabilidades de obtención.
+
+| Nombre del Rasgo | Rareza | Modificador de Estadística Principal | Probabilidad |
+| --- | --- | --- | --- |
+| **Divine** | Mítico | **+150% de Daño**, +15% de Rango | 0.10% |
+| **Godspeed** | Mítico | **+30% de Vel. de Ataque**, +10% de Rango | 0.25% |
+| **Reaper** | Legendario | **+50% de Daño**, Ejecuta por debajo de 15% HP | 1.00% |
+| **Sniper** | Legendario | **+35% de Rango**, -5% de Vel. de Ataque | 1.50% |
+| **Gladiator** | Épico | **+25% de Daño**, +10% de Vel. de Ataque | 5.00% |
+| **Nimble** | Épico | **+15% de Vel. de Ataque** | 8.00% |
+| **Sharp** | Raro | **+15% de Prob. Crítica** | 15.00% |
+| **Rango I** | Común | **+5% de Rango** | 34.15% |
+| **Daño I** | Común | **+5% de Daño** | 35.00% |
+
+Cada arquetipo de unidad se beneficia de manera diferente de rasgos específicos. Por ejemplo, los atacantes requieren aumentos de poder puro, mientras que las unidades de utilidad y de generación de dinero requieren velocidad de ataque o reducciones en el costo de colocación. La siguiente tabla destaca las combinaciones de rasgos óptimas para diferentes roles de unidad.
+
+| Rol de Unidad | Rasgo Objetivo Principal | Rasgo Objetivo Secundario | Enfoque de Estadística |
+| --- | --- | --- | --- |
+| **DPS Principal** | Divine | Reaper | Daño Puro, Golpes Críticos |
+| **Lentitud/Aturdimiento** | Godspeed | Nimble | Vel. de Ataque, Rango |
+| **Granja de Dinero** | Nimble | Gladiator | Reducción de CD, Costo |
+| **Soporte de Buffs** | Godspeed | Rango I | Rango, Vel. de Ataque |
+
+<Callout type="success" title="Optimización Ideal de la Plantilla">
+Intenta asegurar al menos un rasgo de nivel Épico en tus atacantes principales antes de intentar etapas de raid difíciles. Incluso una mejora menor como Gladiator puede marcar una diferencia significativa en la velocidad de limpieza.
+</Callout>
+
+Aunque la tasa del 0.1% para Divine es atractiva, conformarse con rasgos Legendarios como Reaper o Sniper suele ser el enfoque más rentable para los jugadores de nivel medio. No agotes todos tus tokens de reroll persiguiendo un solo rasgo mítico.
+
+</Section>
+
+<Section icon={Target} title="Cómo hacer Reroll: Guía de Optimización de Rasgos Paso a Paso">
+
+Relanzar rasgos requiere una planificación cuidadosa para evitar desperdiciar tokens valiosos. Sigue este proceso estructurado para maximizar la eficiencia de tus recursos y asegurar rasgos de alto nivel para tu equipo principal.
+
+<Steps>
+  <Step num="1" title="Adquirir Tokens de Reroll">
+    Obtén tokens de reroll completando desafíos diarios, superando hitos del modo infinito o comprándolos en la tienda del juego usando gemas.
+  </Step>
+  <Step num="2" title="Seleccionar la Unidad Objetivo">
+    Navega al inventario de personajes y selecciona una unidad legendaria o mítica de alto nivel. Asegúrate de que la unidad no esté bloqueada antes de intentar modificar sus estadísticas.
+  </Step>
+  <Step num="3" title="Inspeccionar Rasgos Actuales">
+    Verifica el rasgo existente de la unidad y consulta la lista de niveles. Si la unidad ya posee un rasgo Épico o Legendario, evalúa si tienes suficientes tokens para arriesgarte a un reroll.
+  </Step>
+  <Step num="4" title="Ejecutar el Proceso de Reroll">
+    Usa el botón de reroll para consumir un token y obtener un nuevo rasgo. El sistema mostrará el nuevo rasgo junto con sus correspondientes ajustes de estadísticas.
+  </Step>
+  <Step num="5" title="Decidir si Mantener o Relanzar">
+    Determina si el rasgo obtenido se alinea con el rol de la unidad. Si obtienes un rasgo mítico como Divine, detente inmediatamente y bloquea la unidad para evitar rerolls accidentales.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Rerolls Accidentales">
+Siempre verifica que el estado de bloqueo esté activo en las unidades con rasgos míticos. Los rerolls accidentales no se pueden deshacer y el equipo de soporte no puede restaurar rasgos perdidos.
+</Callout>
+
+Para los jugadores que buscan optimizar múltiples unidades, se recomienda distribuir sus tokens de reroll en todo su equipo principal en lugar de gastar todos los tokens en un solo personaje. Un equipo equilibrado con rasgos Épicos superará a un equipo con una unidad Mítica y cuatro unidades sin rasgos.
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Evolución: Cómo se Comportan los Rasgos Durante las Mejoras">
+
+Evolucionar unidades es una mecánica de progresión central en Anime Origins. Sin embargo, los jugadores deben entender cómo la evolución de un personaje afecta sus rasgos activos. Evolucionar una unidad generalmente preserva el rasgo actual, pero existen reglas y excepciones específicas que debes tener en cuenta.
+
+| Nivel de Unidad | Costo de Evolución | Estado de Retención de Rasgo | Acción Recomendada |
+| --- | --- | --- | --- |
+| **Épico a Legendario** | 10 Materiales de Evolución | Retenido (100% de Probabilidad) | Reroll después de evolucionar |
+| **Legendary a Mítico** | 25 Materiales de Evolución | Retenido (100% de Probabilidad) | Reroll antes de evolucionar |
+| **Mítico a Ascendido** | 50 Materiales de Evolución | Retenido (100% de Probabilidad) | Bloquear rasgo antes de evolucionar |
+
+Para ayudarte a planificar tu camino de evolución, revisa las siguientes estrategias basadas en tu progresión actual.
+
+<CardGrid cols={3}>
+  <Card title="Reroll Pre-Evolución">
+    - **Menor costo de tokens**
+    - Gestión de recursos más sencilla
+    - Ideal para unidades Legendarias
+  </Card>
+  <Card title="Reroll Post-Evolución">
+    - **Mayor costo de tokens**
+    - Acceso a rasgos exclusivos
+    - Ideal para unidades Míticas
+  </Card>
+  <Card title="Bloqueo de Rasgo en Ascensión">
+    - **Garantiza la preservación del rasgo**
+    - Previene reinicios accidentales
+    - Requerido para builds de endgame
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo de Evolución">
+Algunos rasgos exclusivos solo se desbloquean después de que una unidad ha alcanzado su forma Mítica o Ascendida. Consulta el índice de personajes para confirmar si tu rasgo objetivo está disponible en la etapa de evolución actual de la unidad.
+</Callout>
+
+Verifica siempre los requisitos de materiales antes de iniciar una evolución. Si te faltan materiales, espera para relanzar los rasgos hasta que estés listo para completar la secuencia de mejora completa.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Fin de Juego: Lista de Verificación de Configuración de Rasgos Ideal">
+
+A medida que avanzas hacia el endgame de Anime Origins, tu enfoque pasará de simplemente adquirir rasgos a optimizarlos para modos de juego específicos como Raids y el Modo Infinito. Usa esta lista para seguir tu progreso hacia el logro de la configuración definitiva del equipo.
+
+<Checklist
+  id="endgame-trait-goals"
+  title="Hitos del Endgame:"
+  items={[
+    "Equipar todas las unidades de DPS principal con al menos un rasgo Reaper o Divine Legendario",
+    "Asegurar el rasgo Godspeed en tus unidades principales de soporte de lentitud y aturdimiento",
+    "Optimizar las unidades de granja con rasgos Nimble para acelerar la economía del juego temprano",
+    "Establecer una reserva de más de 50 tokens de reroll antes del lanzamiento de nuevos banners de personajes",
+    "Verificar que todos los rasgos activos se alineen con las recomendaciones actuales del meta"
+  ]}
+/>
+
+<Callout type="success" title="Lista de Verificación Completada">
+Completar estos objetivos aumentará significativamente tu tasa de éxito en raids de alto nivel y te permitirá avanzar más en las tablas de clasificación del Modo Infinito.
+</Callout>
+
+Recuerda que el meta cambia con cada actualización. Mantente atento a los cambios de equilibrio de los personajes para asegurar que tus configuraciones de rasgos actuales sigan siendo óptimas para la versión activa del juego.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes Sobre los Rasgos">
+
+Revisa estas preguntas y respuestas comunes para resolver cualquier duda restante sobre el sistema de rasgos y las estrategias de optimización.
+
+<FAQ items={[
+  {
+    question: "¿Cómo afectan los rasgos de Anime Origins al daño total de la unidad?",
+    answer: "Los rasgos aplican bonificaciones multiplicativas o aditivas a las estadísticas base de una unidad. Los rasgos de alto nivel como Divine ofrecen hasta un 150% de aumento de daño, que escala exponencialmente cuando se combina con buffs dentro del juego."
+  },
+  {
+    question: "¿Puedo transferir un rasgo de una unidad a otra?",
+    answer: "No, los rasgos están bloqueados a la unidad específica en la que se obtuvieron. No puedes transferir rasgos entre personajes, incluso si son unidades idénticas."
+  },
+  {
+    question: "¿Vale la pena perseguir el rasgo Divine del 0.1%?",
+    answer: "Para la mayoría de los jugadores, no se recomienda perseguir el rasgo Divine a menos que tengas un exceso de tokens de reroll. Conformarse con rasgos Legendarios como Reaper o Sniper es mucho más eficiente en términos de recursos."
+  },
+  {
+    question: "¿Cambian los rasgos cuando evoluciono una unidad?",
+    answer: "No, los rasgos se preservan durante el proceso de evolución. Sin embargo, siempre debes verificar el estado de bloqueo de la unidad para evitar cambios accidentales durante las mejoras."
+  }
+]} />
+
+<Callout type="tip" title="Guía de la Comunidad">
+Para estrategias más detalladas y discusiones de la comunidad, consulta los foros oficiales del juego y los canales de Discord para ver cómo los jugadores de alto nivel optimizan sus equipos.
+</Callout>
+
+</Section>

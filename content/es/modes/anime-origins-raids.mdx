@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Incursiones de Anime Origins: Guía del Dios del Trueno y Configuración de Equipos",
+  description: "Domina todas las incursiones de Anime Origins con nuestra guía paso a paso, incluyendo las mecánicas del jefe para la incursión del Dios del Trueno Raijin y las configuraciones de equipo óptimas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Origins+Raids",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Origins"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Domina las mecánicas de las **incursiones de anime origins** para asegurar botín de alto nivel y evoluciones de personajes exclusivas.
+- **Jefe clave**: La incursión del Dios del Trueno Raijin requiere una alta resistencia al rayo y unidades móviles para esquivar los ataques de área de efecto.
+- **Mejor configuración**: Lleva una alineación equilibrada que incluya al menos un DPS principal, un soporte de potenciadores (buffs) y un especialista en control de masas.
+- **Recompensa principal**: Reúne cuentas de Magatama y Tambores de Trueno para fabricar el conjunto de equipo legendario Regalia Imperial.
+</Callout>
+
+<Section icon={Map} title="Descripción general de las incursiones de Anime Origins y niveles de jefes">
+
+Las incursiones representan el desafío definitivo del juego tardío (endgame) en el meta actual. Estas instancias cooperativas requieren que los jugadores coordinen las composiciones de sus equipos, entiendan las complejas fases de los jefes y ejecuten estrategias precisas para obtener materiales de mejora legendarios. Para tener éxito en estos encuentros de alto nivel, es esencial comprender los requisitos de entrada y la escala de dificultad.
+
+**Puntos clave del video:**
+- Aprende los orígenes mitológicos de Raijin, el Dios del Trueno, quien sirve como la inspiración principal para el jefe de la incursión.
+- Descubre cómo las leyendas sintoístas influyen en el diseño visual del jefe, incluyendo los icónicos tambores Tomoe.
+- Comprende la conexión entre el jefe de la incursión y personajes populares de anime como Enel, Minato y Sasuke.
+- Identifica las fases clave de los ataques basados en rayos para mejorar tu tasa de supervivencia.
+
+<YouTubeEmbed videoId="QkhCyEhrVxA" title="Anime Origins - Raijin, el Dios del Trueno" />
+
+Las incursiones se dividen en distintos niveles de dificultad, y cada uno ofrece recompensas progresivamente mejores al tiempo que introduce modificadores de jefe más letales. Los jugadores deben alcanzar hitos de nivel específicos antes de intentar dificultades más altas para asegurarse de no obstaculizar a sus compañeros de equipo.
+
+| Dificultad | Nivel recomendado | Recompensas clave | Coste de energía |
+| :--- | :--- | :--- | :--- |
+| Normal | Nivel 30+ | Cuentas de Tomoe, Oro | 10 de Energía |
+| Difícil | Nivel 60+ | Magatamas raras, Fragmentos de evolución | 15 de Energía |
+| Pesadilla | Nivel 90+ | Tambores de Trueno, Materiales míticos | 25 de Energía |
+
+<Callout type="warning" title="Gestión de energía">
+Entrar a una incursión consume energía solo tras completarla con éxito. Si tu equipo es derrotado o si te desconectas a mitad de la batalla, se te reembolsará la energía. Usa esto para practicar las mecánicas en la dificultad Pesadilla sin perder recursos valiosos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía de la incursión del Dios del Trueno Raijin">
+
+La incursión del Dios del Trueno Raijin es actualmente el encuentro más desafiante en la rotación. El jefe está fuertemente inspirado en la mitología sintoísta tradicional japonesa, utilizando tambores de trueno (Tomoe) y convocando a un lobo de rayo demoníaco conocido como Raiju. Los jugadores deben adaptarse a los peligros eléctricos de ritmo rápido y coordinar su posicionamiento para evitar ser eliminados.
+
+Durante la primera fase, Raijin flota en el centro de la arena, rodeado por una barrera potenciada por ocho tambores de trueno. Intentar dañar al jefe directamente durante esta fase es muy ineficiente. En su lugar, los jugadores deben concentrar sus ataques en los tambores individuales mientras esquivan los ataques de rayos localizados marcados por círculos azules en el suelo.
+
+A medida que la lucha avanza hacia la segunda fase, Raijin invoca a Raiju, el lobo demoníaco del rayo. Según la leyenda, esta criatura se esconde en los ombligos de los niños, lo que lleva al jefe a golpear el suelo con relámpagos para despertarla. En la incursión, Raiju ataca al jugador con el nivel de amenaza más alto, dejando un rastro de suelo electrificado que inflige daño a lo largo del tiempo.
+
+<Callout type="tip" title="Estrategia de posicionamiento">
+Mantén al jefe en el centro mientras tus unidades de DPS a distancia se distribuyen a lo largo del borde exterior de la arena. Esto evita que los ataques de rayos encadenados de Raijin reboten entre múltiples miembros del grupo, minimizando la carga de curación de tus unidades de soporte.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Destruye los tambores Tomoe">
+    Concentra todos los ataques a un solo objetivo en los ocho tambores exteriores para desactivar la barrera de Raijin. Evita pararte directamente debajo de los tambores, ya que emiten pulsos eléctricos periódicos.
+  </Step>
+  <Step num="2" title="Intercepta la invocación de Raiju">
+    Cuando aparezca el lobo de rayo, tu tanque secundario (off-tank) o unidad de utilidad principal debe atraer su agresividad (aggro). Lleva a la bestia lejos del grupo principal para evitar que llene la arena con charcos eléctricos.
+  </Step>
+  <Step num="3" title="Sobrevive al ataque global">
+    Al 50% de salud, Raijin desata un ataque definitivo en toda la sala. Busca refugio dentro de las barreras protectoras generadas por tus unidades de soporte o esquiva en el momento preciso del destello.
+  </Step>
+  <Step num="4" title="Ejecuta la ráfaga final">
+    Una vez que el escudo esté caído y las invocaciones sean derrotadas, desata todas las habilidades definitivas. Usa habilidades que potencien el ataque para maximizar el daño durante esta breve ventana de vulnerabilidad.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuraciones de equipo óptimas y clasificación de unidades">
+
+El éxito en estos encuentros depende en gran medida de la sinergia del equipo. Los personajes inspirados en los usuarios clásicos de rayos del anime rinden excepcionalmente bien aquí, aunque se requiere un equilibrio de roles para hacer frente a las dificultades más altas.
+
+Al construir tu equipo, prioriza las unidades que ofrecen utilidad junto con daño bruto. Por ejemplo, los personajes que utilizan mecánicas de teletransportación pueden esquivar fácilmente los peligros de área de efecto del jefe, mientras que las unidades con habilidades de generación de escudos protegen al equipo durante las fases de daño global.
+
+<CardGrid cols={3}>
+  <Card title="Rol de DPS principal">
+    - **Alto daño a un solo objetivo**
+    - Se enfoca en romper los escudos del jefe
+    - Requiere potenciadores de velocidad de ataque
+  </Card>
+  <Card title="Soporte y potenciadores">
+    - **Proporciona escudos para todo el equipo**
+    - Aumenta el daño físico/elemental
+    - Cura el daño residual de los rayos
+  </Card>
+  <Card title="Utilidad y control">
+    - **Atrae la agresividad (aggro) del jefe y de las invocaciones**
+    - Reposiciona a los enemigos con desplazamientos
+    - Aplica desventajas (debuffs) defensivas a los jefes
+  </Card>
+</CardGrid>
+
+El meta actual favorece una mezcla de atacantes de alta movilidad y soportes defensivos. A continuación se muestra la clasificación actual de las unidades con mejor rendimiento para este ciclo de incursión específico.
+
+| Nombre de la unidad | Rol | Clasificación de nivel | Habilidad insignia |
+| :--- | :--- | :--- | :--- |
+| Enel Dios del Trueno | DPS principal | Nivel S | Bola de rayos Raigo |
+| Minato Destello Amarillo | DPS de movilidad | Nivel S | Dios del Trueno Volador |
+| Sasuke Espada Relámpago | DPS de ráfaga | Nivel A | Espada Takemikazuchi |
+| Kakashi Ninja Copia | Control de masas | Nivel A | Bestia de rayo Kirin |
+| Fujin Dios del Viento | Soporte / Potenciador | Nivel B | Escudo de vendaval divino |
+
+<Callout type="success" title="Bonificación de sinergia">
+Emparejar a Enel Dios del Trueno con Fujin Dios del Viento activa la bonificación de sinergia "Tormenta Eterna", lo que aumenta la probabilidad de golpe crítico de todos los miembros del grupo en un 15% durante la duración de la incursión.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de incursión y rutas de farmeo">
+
+Farmear estos encuentros es el método principal para adquirir los materiales necesarios para evolucionar a tus personajes a sus estados míticos. Los botines más codiciados de la incursión del Dios del Trueno son las Piedras Magatama y los raros Tambores de Trueno, que se utilizan para fabricar el legendario equipo Regalia Imperial.
+
+Para optimizar tu eficiencia de farmeo, establece una rutina diaria que maximice tus entradas con botín de bonificación. Las primeras tres incursiones completadas cada día otorgan el doble de recompensas, por lo que es beneficioso guardar estas incursiones para la dificultad Pesadilla si tu equipo es capaz de completarla.
+
+<Checklist
+  id="daily-raid-checklist"
+  title="Rutina diaria de incursión:"
+  items={[
+    "Completa la misión de preparación diaria para obtener fichas de entrada de bonificación",
+    "Usa tus tres incursiones de bonificación de doble botín en la dificultad más alta disponible",
+    "Intercambia cuentas de Tomoe comunes en el comerciante de incursión por catalizadores de mejora",
+    "Coordínate con los miembros del gremio para acumular llaves para las invocaciones de jefes de bonificación"
+  ]}
+/>
+
+Comprender las tasas de aparición (drop rates) ayuda a establecer expectativas al farmear para rutas de evolución específicas. La siguiente tabla detalla las tasas de aparición promedio observadas en todas las configuraciones de dificultad.
+
+| Nombre del objeto | Tasa de aparición (Pesadilla) | Uso principal de fabricación | Raridad |
+| :--- | :--- | :--- | :--- |
+| Cuenta de Tomoe | 100% | Mejoras de equipo básicas | Común |
+| Piedra Magatama | 25% | Evolución de personaje de nivel medio | Rara |
+| Tambor de Trueno | 8% | Fabricación de armas legendarias | Épica |
+| Regalia Imperial | 2% | Desbloqueo de aspectos de nivel mítico | Mítica |
+
+<Callout type="info" title="Distribución de botín">
+El botín de la incursión se genera de forma individual para cada jugador. No tienes que preocuparte de que tus compañeros reclamen tus recompensas, así que concéntrate por completo en completar los objetivos de la batalla en lugar de apresurarte a recoger objetos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Comprender los matices de las mecánicas de incursión puede marcar la diferencia entre una incursión exitosa y la derrota de todo el equipo. A continuación se presentan las respuestas a las preguntas más comunes sobre estos encuentros.
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo la incursión del Dios del Trueno Raijin en las incursiones de anime origins?",
+    answer: "Debes alcanzar el nivel de jugador 60 y completar el Capítulo 8 de la historia principal para acceder a este encuentro específico."
+  },
+  {
+    question: "¿Puedo hacer las incursiones en dificultad Pesadilla en solitario?",
+    answer: "Aunque es posible con unidades de nivel S al nivel máximo, se recomienda encarecidamente hacer cola con un grupo cooperativo coordinado."
+  },
+  {
+    question: "¿Cuál es el mejor elemento para usar contra el jefe Dios del Trueno?",
+    answer: "Las unidades de elemento viento infligen daño adicional a Raijin, mientras que las unidades de elemento rayo reciben daño reducido de sus ataques."
+  },
+  {
+    question: "¿Con qué frecuencia se reinician las recompensas de la incursión?",
+    answer: "Las recompensas diarias de la incursión se reinician a las 04:00 UTC todos los días, lo que te permite farmear materiales raros nuevamente."
+  }
+]} />
+
+<Callout type="warning" title="Temporizador de bloqueo">
+Salir de una incursión prematuramente tres veces en un solo día resulta en una restricción temporal de emparejamiento de 30 minutos. Asegúrate de que tu conexión sea estable antes de hacer cola para encuentros de alto nivel.
+</Callout>
+
+</Section>
