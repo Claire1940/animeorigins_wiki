@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Anime Origins Wiki - Códigos, Unidades, Tier List y Raids",
+      "description": "Anime Origins Wiki cubre códigos, tier lists de unidades, invocaciones, rasgos, evoluciones, Modo Historia, Modo Infinito, raids, actualizaciones y consejos de creación de equipos para principiantes.",
+      "keywords": "anime origins, roblox, códigos, tier list, unidades, invocaciones, rasgos, raids, evolución",
+      "ogTitle": "Anime Origins Wiki - Códigos, Unidades, Tier List y Raids",
+      "ogDescription": "Anime Origins Wiki cubre códigos, tier lists de unidades, invocaciones, rasgos, evoluciones, Modo Historia, Modo Infinito, raids, actualizaciones y consejos de creación de equipos para principiantes.",
+      "twitterTitle": "Anime Origins Wiki - Códigos, Unidades, Tier List y Raids",
+      "twitterDescription": "Anime Origins Wiki cubre códigos, unidades, tier lists, invocaciones, rasgos, raids y guías para principiantes para el juego de defensa de torres de anime de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -7,5 +18,798 @@
     "traits": "Rasgos",
     "modes": "Modos",
     "release": "Lanzamiento"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Unirse a Discord",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Defensa de torres de anime de próxima generación",
+    "title": "Anime Origins Wiki",
+    "description": "Invoca poderosas unidades de anime, mejora y evoluciona tu equipo, y luego defiende múltiples mundos en el Modo Historia, Modo Infinito, raids y otros desafíos.",
+    "getFreeCodesCTA": "Obtén códigos gratis",
+    "playOnRobloxCTA": "Unirse al Discord oficial",
+    "stats": {
+      "stat1": {
+        "value": "Próximamente",
+        "label": "Estado del lanzamiento"
+      },
+      "stat2": {
+        "value": "3+",
+        "label": "Modos principales"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "Plataformas compatibles"
+      },
+      "stat4": {
+        "value": "Gratis",
+        "label": "Servidores privados"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Anime Origins",
+    "description": "Invoca unidades de anime, mejóralas y evoluciónalas, y defiende en el Modo Historia, Modo Infinito y raids en este próximo juego de defensa de torres de anime en Roblox."
+  },
+  "tools": {
+    "title": "Anime Origins",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para dominar Anime Origins: códigos, unidades, tier lists, rasgos, evolución, modos y las últimas actualizaciones.",
+    "cards": [
+      {
+        "icon": "Ticket",
+        "title": "Códigos de Anime Origins",
+        "description": "Códigos activos, pasos de canje y dónde se lanzan las nuevas recompensas"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Anime Origins",
+        "description": "Invocación, creación de equipos y primeras victorias en el Modo Historia"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Anime Origins",
+        "description": "Clasificación de unidades por daño, alcance y valor en cada modo"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Unidades de Anime Origins",
+        "description": "Base de datos de unidades con rareza, probabilidades de invocación e información de banners"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Rasgos de Anime Origins",
+        "description": "Efectos de rasgos, prioridades de reroll y las mejores combinaciones de unidades"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Evolución de Anime Origins",
+        "description": "Requisitos de evolución, materiales y rutas de mejora"
+      },
+      {
+        "icon": "Swords",
+        "title": "Modos de Anime Origins",
+        "description": "Modo Historia, Modo Infinito, raids y desafíos multijugador"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Anime Origins",
+        "description": "Últimas unidades, rasgos, modos y revelaciones de desarrollo"
+      }
+    ]
+  },
+  "modules": {
+    "animeOriginsCodes": {
+      "eyebrow": "Recompensas gratuitas",
+      "title": "Códigos de Anime Origins",
+      "subtitle": "Sigue los códigos activos de Anime Origins y los canales oficiales que anuncian nuevas recompensas.",
+      "intro": "Los códigos de Anime Origins pueden otorgar recompensas de lanzamiento, recursos de invocación y otros objetos de progresión. Los nuevos códigos se publican a través del Discord oficial de Anime Origins y se anuncian en los canales de la comunidad del juego.",
+      "items": [
+        {
+          "status": "Sin códigos activos",
+          "statusTone": "neutral",
+          "reward": "Actualmente no hay códigos de recompensa públicos disponibles para Anime Origins.",
+          "requirements": "Revisa los anuncios oficiales de Discord para enterarte de los últimos lanzamientos de códigos."
+        },
+        {
+          "status": "Códigos expirados",
+          "statusTone": "muted",
+          "reward": "Aún no se ha publicado un archivo oficial de códigos expirados.",
+          "requirements": "Canjea cada código rápidamente porque los códigos de Roblox distinguen entre mayúsculas y minúsculas y pueden caducar."
+        },
+        {
+          "status": "Fuente oficial de códigos",
+          "statusTone": "acento",
+          "reward": "Las recompensas por lanzamiento, actualizaciones y logros de la comunidad se anuncian a través del Discord de Anime Origins.",
+          "requirements": "Únete al servidor y sigue sus canales de anuncios y actualizaciones."
+        },
+        {
+          "status": "Lista de verificación de canje",
+          "statusTone": "éxito",
+          "reward": "Las recompensas se añaden directamente al saldo o inventario correspondiente dentro del juego.",
+          "requirements": "Inicia Anime Origins, abre la interfaz de entrada de códigos, pega el código completo y confirma el canje."
+        }
+      ],
+      "tips": [
+        "Copia los códigos exactamente como están escritos; los códigos de Roblox distinguen entre mayúsculas y minúsculas.",
+        "Canjea los nuevos códigos en cuanto salgan antes de que caduquen.",
+        "Sigue el Discord oficial para no perderte las recompensas de lanzamiento y de hitos.",
+        "Si un código falla, vuelve a verificar la ortografía y el uso de mayúsculas antes de intentarlo de nuevo."
+      ]
+    },
+    "animeOriginsBeginnerGuide": {
+      "eyebrow": "Primeros pasos",
+      "title": "Guía de Anime Origins para principiantes",
+      "subtitle": "Aprende el ciclo de invocación, creación de equipos y defensa de torres antes de entrar en modos más difíciles.",
+      "intro": "Anime Origins es un juego de defensa de torres de anime centrado en coleccionar unidades, colocarlas a lo largo de las rutas enemigas y mejorarlas durante la batalla. El Modo Historia es el mejor punto de partida antes de pasar al Modo Infinito, raids y otros desafíos.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Invoca tus primeras unidades",
+          "description": "Usa el sistema de invocación para obtener unidades para tu plantilla inicial. Crea un equipo funcional antes de gastar recursos en unidades duplicadas o muy especializadas.",
+          "tip": "Empieza con unidades que puedan cubrir tanto a enemigos agrupados como a objetivos individuales más fuertes."
+        },
+        {
+          "step": 2,
+          "title": "Crea un equipo equilibrado",
+          "description": "Elige unidades con diferentes rangos de ataque, costos de colocación y roles de combate. Un equipo inicial equilibrado necesita un daño confiable y suficiente cobertura para oleadas concurridas.",
+          "tip": "Evita llenar cada ranura con unidades que hagan el mismo trabajo."
+        },
+        {
+          "step": 3,
+          "title": "Comienza con el Modo Historia",
+          "description": "Usa el Modo Historia para aprender los mapas, las rutas de los enemigos y la estructura normal de las oleadas. Completar las primeras etapas también proporciona la progresión necesaria para desbloquear y mejorar más unidades.",
+          "tip": "Avanza hacia nuevas etapas antes de farmear repetidamente el mapa más fácil."
+        },
+        {
+          "step": 4,
+          "title": "Coloca unidades cerca de caminos largos",
+          "description": "Despliega unidades donde los enemigos permanezcan dentro de su rango de ataque durante más tiempo. Las esquinas, curvas y secciones superpuestas permiten que la misma unidad ataque con más frecuencia.",
+          "tip": "Revisa el círculo de rango de una unidad antes de confirmar su colocación."
+        },
+        {
+          "step": 5,
+          "title": "Mejora durante cada partida",
+          "description": "Gasta la moneda de batalla en las unidades que ya cubren la parte más importante de la ruta. Las mejoras optimizan su rendimiento de combate y las ayudan a lidiar con las oleadas posteriores.",
+          "tip": "Fortalece a un pequeño grupo principal antes de colocar demasiadas unidades de nivel bajo."
+        },
+        {
+          "step": 6,
+          "title": "Mejora y evoluciona tu plantilla",
+          "description": "Usa los recursos de progresión para mejorar, evolucionar y desbloquear versiones más fuertes de unidades útiles. Enfoca la inversión a largo plazo en unidades que sigan siendo efectivas en múltiples modos.",
+          "tip": "Guarda los materiales de evolución valiosos para las unidades que permanecerán en tu equipo principal."
+        },
+        {
+          "step": 7,
+          "title": "Entra al Modo Infinito y a las raids",
+          "description": "Pásate al Modo Infinito, raids y desafíos adicionales una vez que tu equipo del Modo Historia sea consistente. Estos modos ponen a prueba el daño sostenido, el rendimiento contra jefes y la coordinación del equipo.",
+          "tip": "Los servidores privados gratuitos son excelentes para practicar estrategias o jugar con compañeros de equipo elegidos."
+        }
+      ],
+      "quickTips": [
+        "Confirma siempre el rango de una unidad antes de colocarla en el mapa.",
+        "Mejora un grupo principal de unidades en lugar de dispersar demasiado la moneda.",
+        "Guarda materiales de evolución para las unidades que planees usar a largo plazo.",
+        "Usa servidores privados gratuitos para practicar estrategias difíciles sin riesgos."
+      ]
+    },
+    "animeOriginsUnitTierList": {
+      "eyebrow": "Rankings de Unidades",
+      "title": "Anime Origins Unit Tier List",
+      "subtitle": "Compara las unidades de Anime Origins más fuertes mostradas públicamente por rareza, valor de summon y rol de combate esperado.",
+      "intro": "Las unidades de mayor prioridad son personajes raros con cinemáticas de summon dedicadas, demostraciones de ataque fuertes o un valioso potencial de endgame. Los rankings consideran el daño, rango, velocidad de ataque, cobertura de área y rendimiento contra jefes.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Unidad Top Secret",
+          "units": [
+            {
+              "name": "Yuta Okkotsu",
+              "rarity": "Secreto",
+              "role": "Unidad de daño de alto valor",
+              "strengths": [
+                "Cinemática de summon secreto dedicada",
+                "Summon extremadamente raro",
+                "Fuerte valor de colección para el endgame"
+              ],
+              "summonRate": "0.05%"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Unidad de Combate Destacada",
+          "units": [
+            {
+              "name": "Meliodas (Modo Asalto)",
+              "rarity": "Unidad Mostrada",
+              "role": "Dealer de daño principal",
+              "strengths": [
+                "Demostración de combate dedicada",
+                "Múltiples etapas de mejora",
+                "Diseñado para daño de oleadas sostenido"
+              ],
+              "summonRate": "No anunciado"
+            }
+          ]
+        },
+        {
+          "tier": "Ver",
+          "label": "Unidad en Vista Previa",
+          "units": [
+            {
+              "name": "Starrk",
+              "rarity": "Unidad en Vista Previa",
+              "role": "Dealer de daño a distancia",
+              "strengths": [
+                "Presentado en una vista previa oficial de summoning",
+                "Temática de ataque de largo alcance",
+                "Fuerte contra enemigos agrupados"
+              ],
+              "summonRate": "No anunciado"
+            }
+          ]
+        },
+        {
+          "tier": "Info",
+          "label": "Cómo se evalúan las unidades",
+          "units": [
+            {
+              "name": "Producción de Daño",
+              "rarity": "Estadística Principal",
+              "role": "Daño total a lo largo de oleadas completas",
+              "strengths": [
+                "Daño base",
+                "Escala de mejora",
+                "Cobertura de área de efecto"
+              ],
+              "summonRate": "No aplicable"
+            },
+            {
+              "name": "Alcance y velocidad de ataque",
+              "rarity": "Estadística principal",
+              "role": "Qué tan consistentemente puede atacar una unidad",
+              "strengths": [
+                "Cobertura del mapa",
+                "Tiempo de reutilización de ataque",
+                "Flexibilidad de colocación"
+              ],
+              "summonRate": "No aplicable"
+            },
+            {
+              "name": "Valor del modo",
+              "rarity": "Utilidad",
+              "role": "Rendimiento en Historia, Infinito y Raids",
+              "strengths": [
+                "Limpieza de oleadas",
+                "Daño a jefes",
+                "Utilidad en el juego tardío (endgame)"
+              ],
+              "summonRate": "No aplicable"
+            }
+          ]
+        }
+      ]
+    },
+    "animeOriginsUnitsAndSummoning": {
+      "eyebrow": "Base de datos de unidades",
+      "title": "Unidades y invocación en Anime Origins",
+      "subtitle": "Explora las unidades confirmadas, información conocida de invocación y avances de personajes destacados.",
+      "intro": "Las unidades se obtienen a través del sistema de invocación de Anime Origins y se utilizan para defender rutas contra oleadas de enemigos. La rareza, la probabilidad de invocación, el tipo de ataque y el potencial de mejora determinan qué tan valiosa es cada obtención.",
+      "items": [
+        {
+          "name": "Yuta Okkotsu",
+          "rarity": "Secreto",
+          "summonRate": "0.05%",
+          "availability": "Grupo de invocación secreta",
+          "attackProfile": "Unidad de daño de alto valor",
+          "details": "Yuta tiene una escena de invocación secreta dedicada y es una de las unidades de Anime Origins mostradas públicamente más raras."
+        },
+        {
+          "name": "Starrk",
+          "rarity": "No anunciado",
+          "summonRate": "No anunciado",
+          "availability": "Vista previa de invocación",
+          "attackProfile": "Atacante a distancia",
+          "details": "Starrk aparece en el metraje de avances de invocación y unidades del juego."
+        },
+        {
+          "name": "Meliodas (Modo Asalto)",
+          "rarity": "No anunciado",
+          "summonRate": "No anunciado",
+          "availability": "Exhibición de jugabilidad",
+          "attackProfile": "Atacante centrado en daño",
+          "details": "Meliodas en Modo Asalto tiene una exhibición dedicada que muestra sus ataques y progresión de mejora."
+        },
+        {
+          "name": "Unidades del estandarte estándar",
+          "rarity": "Rarezas múltiples",
+          "summonRate": "Dependiente del banner",
+          "availability": "Banners de invocación regulares",
+          "attackProfile": "Roles de daño, rango y utilidad",
+          "details": "Los banners regulares proporcionan el grupo principal de unidades utilizadas para crear equipos iniciales y de progresión."
+        },
+        {
+          "name": "Unidades destacadas del banner",
+          "rarity": "Grupo de rareza destacado",
+          "summonRate": "Dependiente del banner",
+          "availability": "Banners de invocación destacados",
+          "attackProfile": "Objetivos de colección de mayor prioridad",
+          "details": "Los banners destacados resaltan unidades seleccionadas y deben revisarse antes de gastar recursos de invocación."
+        },
+        {
+          "name": "Unidades secretas",
+          "rarity": "Secreto",
+          "summonRate": "Extremadamente bajo",
+          "availability": "Resultados de invocación raros",
+          "attackProfile": "Unidades de final de juego y colección",
+          "details": "Las unidades secretas utilizan presentaciones de invocación especiales y tienen tasas de obtención mucho más bajas que los personajes de los banners regulares."
+        }
+      ]
+    },
+    "animeOriginsTraitsAndRerolls": {
+      "eyebrow": "Optimización de unidades",
+      "title": "Rasgos y rerolls en Anime Origins",
+      "subtitle": "Compara los bonos de rasgos principales y decide qué unidades merecen tus rerolls limitados.",
+      "intro": "Los rasgos mejoran el rendimiento de combate de una unidad al cambiar estadísticas como el daño, el tiempo de reutilización del ataque y el rango. Guarda los rerolls para las unidades que permanecerán en tu equipo principal, especialmente para los distribuidores de daño raros y unidades evolucionadas fuertes.",
+      "items": [
+        {
+          "traitFocus": "Daño",
+          "combatEffect": "Aumenta el daño infligido por cada ataque",
+          "bestFor": "Distribuidores de daño principales, asesinos de jefes y unidades con alto daño base",
+          "rerollPriority": "Alto",
+          "usageTip": "Una opción sólida para unidades que ya tienen un rango y velocidad de ataque fiables."
+        },
+        {
+          "traitFocus": "Tiempo de reutilización",
+          "combatEffect": "Reduce el retraso entre ataques y aumenta el daño total por tiempo",
+          "bestFor": "Atacantes rápidos y unidades con poderosas habilidades repetidas",
+          "rerollPriority": "Alto",
+          "usageTip": "Prioriza el tiempo de reutilización cuando los ataques más frecuentes mejoran tanto el daño como el control de masas."
+        },
+        {
+          "traitFocus": "Rango",
+          "combatEffect": "Expande el área que una unidad puede atacar desde su posición de colocación",
+          "bestFor": "Unidades en colinas, atacantes de todo el mapa y unidades colocadas cerca de caminos largos de enemigos",
+          "rerollPriority": "Medio",
+          "usageTip": "El rango destaca en mapas donde una colocación puede cubrir varios giros o carriles."
+        },
+        {
+          "traitFocus": "Combate equilibrado",
+          "combatEffect": "Mejora más de una estadística de combate principal en lugar de especializarse en un área",
+          "bestFor": "Unidades flexibles utilizadas en Story Mode, Infinite Mode y raids",
+          "rerollPriority": "Alto",
+          "usageTip": "Mantén rasgos equilibrados en unidades versátiles a menos que busques un roll premium más fuerte."
+        },
+        {
+          "traitFocus": "Rasgo Secreto",
+          "combatEffect": "Un giro de rasgo de máxima rareza con una cinemática de activación única",
+          "bestFor": "Tu carry a largo plazo más fuerte o unidad evolucionada",
+          "rerollPriority": "Conservar",
+          "usageTip": "El Rasgo Secreto mostrado tiene una probabilidad de obtención del 0.1%, lo que lo convierte en el principal objetivo a conseguir al optimizar una unidad de endgame."
+        },
+        {
+          "traitFocus": "Estrategia de Reroll",
+          "combatEffect": "Reemplaza el rasgo actual de la unidad seleccionada con otro giro",
+          "bestFor": "Unidades míticas, secretas y otras unidades permanentes del equipo",
+          "rerollPriority": "Gestionar",
+          "usageTip": "No gastes una gran cantidad de rerolls en unidades iniciales temporales. Primero forma un equipo utilizable, luego optimiza un carry principal a la vez."
+        }
+      ]
+    },
+    "animeOriginsEvolutionGuide": {
+      "eyebrow": "Progresión de Unidades",
+      "title": "Guía de Evolución de Anime Origins",
+      "subtitle": "Convierte unidades elegibles en formas más fuertes con ataques, habilidades y estadísticas de combate mejoradas.",
+      "intro": "La evolución es una mejora permanente de unidad para personajes con una forma avanzada disponible. Verifica cada requisito antes de usar los materiales y prioriza las evoluciones que fortalezcan a una unidad que ya uses en tu equipo principal de Modo Historia, Modo Infinito o incursiones.",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Obtén una unidad elegible",
+          "action": "Adquiere una unidad que tenga una forma evolucionada disponible.",
+          "details": "Los personajes elegibles muestran una ruta de evolución a través del sistema de progresión de unidades. Las unidades comunes sin una opción de evolución no pueden usar esta función."
+        },
+        {
+          "step": 2,
+          "name": "Revisa los requisitos de evolución",
+          "action": "Abre la interfaz de evolución e inspecciona la lista completa de materiales.",
+          "details": "Los requisitos están vinculados al personaje seleccionado y deben reunirse antes de poder completar la mejora."
+        },
+        {
+          "step": 3,
+          "name": "Reúne materiales de evolución",
+          "action": "Completa contenido de progresión y repite los modos que otorgan los recursos requeridos.",
+          "details": "Las fases del Modo Historia, el Modo Infinito, las incursiones y otros desafíos forman el ciclo principal para obtener recursos de mejora."
+        },
+        {
+          "step": 4,
+          "name": "Prepara la unidad correcta",
+          "action": "Selecciona la copia exacta de la unidad que deseas evolucionar.",
+          "details": "Usa la unidad destinada a tu equipo permanente y confirma que tenga el rasgo y la configuración que deseas seguir desarrollando."
+        },
+        {
+          "step": 5,
+          "name": "Completa la evolución",
+          "action": "Entrega los materiales requeridos a través del menú de evolución.",
+          "details": "El personaje original se convierte en su forma avanzada y pasa a estar disponible para su colocación como la unidad mejorada."
+        },
+        {
+          "step": 6,
+          "name": "Prueba la forma evolucionada",
+          "action": "Compara su costo de colocación, ruta de mejora, tipo de ataque y comportamiento de habilidad.",
+          "details": "Las formas evolucionadas ofrecen un rendimiento de combate más sólido a través de estadísticas mejoradas, ataques potenciados o habilidades adicionales."
+        },
+        {
+          "step": 7,
+          "name": "Construye en torno a la mejora",
+          "action": "Empareja la unidad evolucionada con personajes de apoyo, economía y control de masas.",
+          "details": "Usa el rol mejorado de la unidad para estructurar tus equipos de Modo Historia, Modo Infinito e incursiones en lugar de llenar cada espacio con personajes de daño."
+        },
+        {
+          "step": 8,
+          "name": "Exhibición de forma avanzada",
+          "action": "Meliodas en Modo Asalto ha sido mostrado públicamente como una forma de combate avanzada.",
+          "details": "La exhibición muestra el modelo mejorado, los efectos de ataque y la presentación de habilidades utilizados para las unidades de alto nivel."
+        }
+      ]
+    },
+    "animeOriginsStoryInfiniteAndRaids": {
+      "eyebrow": "Modos de juego",
+      "title": "Modo Historia, Modo Infinito e incursiones de Anime Origins",
+      "subtitle": "Elige el equipo y la estrategia de colocación adecuados para cada desafío importante de Anime Origins.",
+      "intro": "Anime Origins combina la progresión por etapas con la defensa de oleadas infinitas y encuentros de raids más difíciles. Un equipo confiable normalmente necesita un atacante principal, cobertura para las primeras oleadas, control de masas o soporte, y suficiente economía para completar mejoras costosas.",
+      "modes": [
+        {
+          "mode": "Modo Historia",
+          "objective": "Completa etapas estructuradas y protege la base durante cada oleada requerida.",
+          "recommendedTeam": "Atacante para las primeras oleadas, daño principal, unidad de soporte o control de masas, y una opción de economía",
+          "placementTip": "Coloca cobertura económica cerca de la primera curva útil, luego reserva los puntos centrales de alta cobertura para tus unidades más fuertes.",
+          "rewardFocus": "Progresión de la cuenta, recompensas por completar etapas y recursos para fortalecer unidades",
+          "bestFor": "Nuevos jugadores y desbloqueo de contenido posterior"
+        },
+        {
+          "mode": "Modo Infinito",
+          "objective": "Sobrevive a oleadas que escalan continuamente durante todo el tiempo que tu equipo pueda defender la ruta.",
+          "recommendedTeam": "Daño escalable, ataques de área amplia, soporte confiable y unidades que se mantienen fuertes tras las mejoras máximas",
+          "placementTip": "Usa posiciones que cubran múltiples secciones del camino y deja espacio para los atacantes de daño de las últimas oleadas.",
+          "rewardFocus": "Recursos de progresión repetibles y recompensas basadas en completar oleadas más avanzadas",
+          "bestFor": "Farming de recursos y prueba de equipos de endgame"
+        },
+        {
+          "mode": "Raids",
+          "objective": "Derrota un encuentro más difícil diseñado con enemigos más fuertes y patrones de oleadas exigentes.",
+          "recommendedTeam": "Alto daño a un solo objetivo, daño de área, efectos de soporte y unidades adaptadas a la presión de la raid",
+          "placementTip": "Coordina el momento de las mejoras con tus compañeros de equipo y evita gastar todos los recursos iniciales en una sola unidad costosa.",
+          "rewardFocus": "Recompensas de progresión de gran valor y recursos vinculados a mejoras avanzadas de unidades",
+          "bestFor": "Equipos preparados y grupos multijugador"
+        },
+        {
+          "mode": "Desafíos Multijugador",
+          "objective": "Únete a otros jugadores para combinar los roles de las unidades y defender la misma ruta.",
+          "recommendedTeam": "Divide las responsabilidades entre la defensa temprana, la economía, el soporte y el daño en el juego tardío",
+          "placementTip": "Evita superponer coberturas idénticas cuando otro jugador pueda proteger un carril diferente.",
+          "rewardFocus": "Despejes más rápidos y consistentes de contenido difícil",
+          "bestFor": "Amigos, farming coordinado y etapas difíciles"
+        },
+        {
+          "mode": "Partidas en Servidores Privados",
+          "objective": "Practica colocaciones, prueba mejoras u organiza sesiones de farming controladas.",
+          "recommendedTeam": "Cualquier alineación experimental creada en torno al modo que se está probando",
+          "placementTip": "Usa partidas repetidas para comparar dónde alcanza cada unidad a la mayor cantidad de enemigos y cuándo cada mejora se vuelve asequible.",
+          "rewardFocus": "Prueba de estrategias y juego en grupo organizado",
+          "bestFor": "Aprender mapas y perfeccionar las rotaciones de equipo"
+        },
+        {
+          "mode": "Juego Multiplataforma",
+          "objective": "Juega la misma progresión de defensa de torres en los dispositivos compatibles de Roblox.",
+          "recommendedTeam": "Usa un orden de colocación simple cuando juegues en pantallas táctiles más pequeñas",
+          "placementTip": "Aleja la cámara antes de colocar unidades clave y confirma el personaje seleccionado antes de comprar una mejora.",
+          "rewardFocus": "Acceso completo al bucle de progresión principal",
+          "bestFor": "Jugadores de móvil, tableta, PC y consola"
+        }
+      ]
+    },
+    "animeOriginsUpdates": {
+      "eyebrow": "Últimas Revelaciones",
+      "title": "Actualizaciones de Anime Origins",
+      "subtitle": "Sigue las últimas units, traits, modos y sistemas de gameplay mostrados públicamente.",
+      "intro": "Las updates de Anime Origins se comparten a través del Discord oficial y canales de gameplay de apoyo. Las revelaciones a continuación cubren el gameplay loop confirmado, modos principales, muestras de units raras y sistemas de progresión de alta rareza.",
+      "entries": [
+        {
+          "category": "Gameplay Principal",
+          "headline": "Revelado el bucle de progresión de Tower Defense",
+          "changes": [
+            "Summon de units inspiradas en el anime",
+            "Coloca units para defenderte de oleadas de enemigos",
+            "Compra upgrades durante la batalla",
+            "Desbloquea personajes más fuertes y construye teams completos"
+          ],
+          "status": "Revelado"
+        },
+        {
+          "category": "Modos de Juego",
+          "headline": "Contenido de Story Mode, Infinite Mode y Raids confirmado",
+          "changes": [
+            "Story Mode basado en etapas",
+            "Infinite Mode de oleadas infinitas",
+            "Encuentros de Raids más difíciles",
+            "Desafíos extra y juego en teams multijugador"
+          ],
+          "status": "Confirmado"
+        },
+        {
+          "category": "Progresión de Units",
+          "headline": "Sistema de Evolution mostrado",
+          "changes": [
+            "Las units elegibles pueden avanzar a formas más fuertes",
+            "La evolution requiere recursos específicos del personaje",
+            "Las formas avanzadas obtienen una presentación de combate y habilidades upgraded",
+            "Meliodas en Assault Mode tiene una muestra de gameplay pública"
+          ],
+          "status": "Mostrado"
+        },
+        {
+          "category": "Secret Unit",
+          "headline": "Revelación de Summon de Yuta Okkotsu",
+          "changes": [
+            "Yuta Okkotsu aparece como una Secret unit",
+            "La tasa de summon mostrada es de 0.05%",
+            "Obtener la unit activa una cinemática de summon dedicada"
+          ],
+          "status": "Revelado"
+        },
+        {
+          "category": "Traits",
+          "headline": "Cinemática de Secret Trait revelada",
+          "changes": [
+            "Las units pueden recibir traits que mejoran el rendimiento en combate",
+            "Los traits pueden afectar el daño, el enfriamiento de ataque y el rango",
+            "Se ha mostrado públicamente un Secret Trait con una tasa de roll del 0.1%",
+            "El Secret Trait activa una cinemática visual única"
+          ],
+          "status": "Revelado"
+        },
+        {
+          "category": "Presentación",
+          "headline": "Vista previa de animaciones de units y efectos de combate",
+          "changes": [
+            "Animaciones de ataque específicas del personaje",
+            "Secuencias cinemáticas de summon y obtención",
+            "Progresión de upgrade visible durante las partidas",
+            "Efectos distintivos para units avanzadas y raras"
+          ],
+          "status": "Presentado"
+        },
+        {
+          "category": "Soporte de plataformas",
+          "headline": "Soporte para dispositivos de Roblox confirmado",
+          "changes": [
+            "Soporte para móviles",
+            "Soporte para tablets",
+            "Soporte para PC",
+            "Soporte para consolas",
+            "Servidores privados gratuitos"
+          ],
+          "status": "Confirmado"
+        },
+        {
+          "category": "Noticias oficiales",
+          "headline": "Discord sigue siendo el centro principal de updates",
+          "changes": [
+            "Anuncios de desarrollo",
+            "Avances de nuevas units",
+            "Adelantos de gameplay",
+            "Eventos, información de balance y avisos de lanzamiento"
+          ],
+          "status": "Activo"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Anime Origins",
+    "questions": [
+      {
+        "question": "¿Qué es Anime Origins?",
+        "answer": "Anime Origins es un próximo juego de anime tower defense en Roblox desarrollado por SNAP GAMES. Realizas summon de units de anime, haces upgrade y evolution, y defiendes contra oleadas en múltiples modos."
+      },
+      {
+        "question": "¿Qué modos de juego tiene Anime Origins?",
+        "answer": "Anime Origins cuenta con Story Mode, Infinite Mode y raids como sus modos principales, con desafíos adicionales y eventos planeados para futuros updates."
+      },
+      {
+        "question": "¿En qué plataformas puedo jugar Anime Origins?",
+        "answer": "Anime Origins es un juego de Roblox, por lo que funciona en móviles, tablets, PC y consolas donde Roblox sea compatible. Los servidores privados son gratuitos."
+      },
+      {
+        "question": "¿Cuándo se lanzará Anime Origins?",
+        "answer": "Anime Origins se encuentra actualmente en la etapa Upcoming y aún no se ha lanzado oficialmente. Sigue el Discord oficial para conocer la fecha de lanzamiento más reciente y los anuncios de la beta."
+      },
+      {
+        "question": "¿Cómo funcionan los summons y los banners en Anime Origins?",
+        "answer": "Los summons te permiten tirar por units de anime en el banner usando la moneda del juego. Las units de mayor rareza tienen tasas de drop más bajas, y un sistema de pity garantiza una unit destacada tras un número determinado de pulls."
+      },
+      {
+        "question": "¿Dónde puedo conseguir codes de Anime Origins?",
+        "answer": "Los desarrolladores lanzan nuevos codes de Anime Origins a través del Discord oficial y los canales sociales. Canjéalos en el juego por gemas, monedas y objetos exclusivos gratuitos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Anime Origins?",
+    "description": "Únete a la comunidad de Anime Origins en Discord para obtener codes, tier lists de units, guías de summon, traits y las últimas noticias de updates.",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Ver Gameplay"
+  },
+  "footer": {
+    "title": "Wiki de Anime Origins",
+    "description": "Tu centro de recursos completo para codes de Anime Origins, units, tier lists, traits, evolutions, raids y guías de construcción de teams para principiantes.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "youtube": "Gameplay de YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Anime Origins Wiki. No afiliado con SNAP GAMES ni con los desarrolladores de Anime Origins.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Anime Origins",
+      "description": "Todos los códigos activos y expirados de Anime Origins, sus recompensas, pasos de canje y dónde anuncian los desarrolladores nuevos códigos.",
+      "metaTitle": "Códigos de Anime Origins - Lista de códigos activos y expirados",
+      "metaDescription": "Encuentra cada código de Anime Origins que funcione con recompensas y pasos de canje. Se lanzan nuevos códigos en el Discord oficial para obtener gemas, monedas y moneda de invocación gratis.",
+      "categoryLabel": "CÓDIGOS Y RECOMPENSAS",
+      "whatIs": "¿Qué son los códigos de Anime Origins?",
+      "whatIsDescription": "Los códigos de Anime Origins son claves canjeables lanzadas por los desarrolladores que otorgan recompensas gratuitas como gemas, monedas, moneda de invocación y objetos exclusivos.",
+      "why": "¿Por qué guardar esta lista de códigos en marcadores?",
+      "whySteps": {
+        "step1Title": "Mantente actualizado",
+        "step1Description": "Consigue nuevos códigos tan pronto como se publiquen en el Discord oficial de Anime Origins",
+        "step2Title": "Canjea correctamente",
+        "step2Description": "Sigue los pasos de canje exactos para que los códigos nunca fallen",
+        "step3Title": "Realiza un seguimiento de las expiraciones",
+        "step3Description": "Sabrás qué códigos siguen activos antes de probarlos"
+      },
+      "featured": "Códigos destacados",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Anime Origins",
+      "description": "Guías para principiantes y de progresión que cubren la invocación, colocación de unidades, mejoras, farmeo de recursos y el camino desde el Modo Historia hasta las raids de endgame.",
+      "metaTitle": "Guía de Anime Origins - Consejos, progresión y cómo jugar",
+      "metaDescription": "Domina Anime Origins con consejos para principiantes, estrategia de invocación, creación de equipos, farmeo de gemas y rutas de progresión desde el inicio del juego hasta las raids.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es la guía de Anime Origins?",
+      "whatIsDescription": "Una colección de guías detalladas que llevan a los jugadores desde su primera invocación hasta un equipo sólido listo para el Modo Infinito, raids y otro contenido de endgame.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Evita errores tempranos",
+        "step1Description": "Gasta recursos en las unidades correctas desde el principio",
+        "step2Title": "Construye un equipo equilibrado",
+        "step2Description": "Cubre daño, rango y control de masas con una plantilla inicial",
+        "step3Title": "Farmea recursos más rápido",
+        "step3Description": "Usa rutas probadas de farmeo de gemas y de invocaciones para progresar más rápido"
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "units": {
+      "title": "Anime Origins Units",
+      "description": "Explora cada unit que se puede summon con rareza, stats, habilidades, tier rankings y rutas de evolution en los modos Story, Infinite y raids.",
+      "metaTitle": "Anime Origins Units - Tier List, Stats & Evolution",
+      "metaDescription": "Explora cada Anime Origins unit con rareza, stats, tier rankings, secret units y rutas de evolution. Encuentra los damage dealers y supports más fuertes.",
+      "categoryLabel": "UNITS",
+      "whatIs": "¿Qué son las Anime Origins Units?",
+      "whatIsDescription": "La base de datos completa de units que cubre rarezas, summon rates, stats de combate, tier rankings y rutas de evolution para que sepas qué units summon y build.",
+      "why": "¿Por qué estudiar la base de datos de units?",
+      "whySteps": {
+        "step1Title": "Priorizar Summons",
+        "step1Description": "Gasta moneda en las units de mayor valor primero",
+        "step2Title": "Identifica Secret Units",
+        "step2Description": "Identifica los personajes más raros y cómo obtenerlos",
+        "step3Title": "Planifica Evolutions",
+        "step3Description": "Conoce qué units valen la pena para evolution para el contenido de endgame"
+      },
+      "featured": "Units destacadas",
+      "all": "Todas las Units"
+    },
+    "teams": {
+      "title": "Anime Origins Teams",
+      "description": "Las mejores builds de Anime Origins teams para Story Mode, Infinite Mode, raids y el meta actual, con cobertura de roles y tips de placement.",
+      "metaTitle": "Anime Origins Teams - Mejores Team Builds y Meta Comps",
+      "metaDescription": "Construye Anime Origins teams ganadores para Story, Infinite y raids. Encuentra meta comps, cobertura de roles y tips de placement para cada modo de juego.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "¿Qué son los Anime Origins Teams?",
+      "whatIsDescription": "Composiciones de teams recomendadas que combinan damage dealers, supports y units de crowd-control para completar Story Mode, Infinite Mode y raids de manera eficiente.",
+      "why": "¿Por qué usar teams recomendados?",
+      "whySteps": {
+        "step1Title": "Cubre cada rol",
+        "step1Description": "Equilibra el daño, range, buffs y crowd control",
+        "step2Title": "Completa el contenido más difícil",
+        "step2Description": "Usa comps probadas para vencer raids y oleadas de Infinite Mode",
+        "step3Title": "Adáptate al Meta",
+        "step3Description": "Mantente al día con las builds de teams más fuertes tras cada update"
+      },
+      "featured": "Teams destacados",
+      "all": "Todos los Teams"
+    },
+    "traits": {
+      "title": "Anime Origins Traits",
+      "description": "Compara cada trait, sus efectos de combate, prioridades de reroll y las mejores units para hacerles roll para un rendimiento máximo.",
+      "metaTitle": "Anime Origins Traits - Guía de mejores Traits y Reroll",
+      "metaDescription": "Domina los Anime Origins traits y rerolls. Compara efectos, prioridades y las mejores units para traits de daño, cooldown y range.",
+      "categoryLabel": "TRAITS",
+      "whatIs": "¿Qué son los Anime Origins Traits?",
+      "whatIsDescription": "Los Traits son modificadores de estadísticas para units. Los Rerolls te permiten reemplazar un trait con otra tirada para optimizar el rendimiento en combate.",
+      "why": "¿Por qué optimizar los traits?",
+      "whySteps": {
+        "step1Title": "Potencia las Estadísticas Base",
+        "step1Description": "Mejora el daño, cooldown o rango en units clave",
+        "step2Title": "Gasta Rerolls de forma inteligente",
+        "step2Description": "Ahorra rerolls para units permanentes del equipo principal",
+        "step3Title": "Busca Secret Traits",
+        "step3Description": "Apunta a las tiradas de traits más raras para los carries de endgame"
+      },
+      "featured": "Traits Destacados",
+      "all": "Todos los Traits"
+    },
+    "modes": {
+      "title": "Modos de Anime Origins",
+      "description": "Domina el Story Mode, Infinite Mode, raids, desafíos y jefes con configuraciones de equipo, consejos de placement y estrategias de recompensas.",
+      "metaTitle": "Modos de Anime Origins - Story, Infinite, Raids y Jefes",
+      "metaDescription": "Conquista cada modo de Anime Origins con equipos recomendados, consejos de placement y estrategias de recompensas para Story, Infinite, raids, desafíos y jefes.",
+      "categoryLabel": "MODOS",
+      "whatIs": "¿Qué son los Modos de Anime Origins?",
+      "whatIsDescription": "Una guía de los modos principales — Story, Infinite, Raids, Desafíos y Jefes — con objetivos, equipos recomendados y consejos de placement para cada uno.",
+      "why": "¿Por qué aprender cada modo?",
+      "whySteps": {
+        "step1Title": "Adapta tu Equipo",
+        "step1Description": "Construye el roster adecuado para cada desafío",
+        "step2Title": "Coloca bien las Units",
+        "step2Description": "Usa consejos de placement que se ajusten a la estructura de las oleadas",
+        "step3Title": "Gana Mejores Recompensas",
+        "step3Description": "Enfócate en los modos que sueltan lo que necesitas"
+      },
+      "featured": "Modos Destacados",
+      "all": "Todos los Modos"
+    },
+    "release": {
+      "title": "Lanzamiento de Anime Origins",
+      "description": "Sigue la fecha de lanzamiento de Anime Origins, el acceso anticipado, trailers, primeros vistazos y cada update con nuevas units, modos y cambios de balance.",
+      "metaTitle": "Lanzamiento de Anime Origins - Fecha, Trailer y Updates",
+      "metaDescription": "Sigue la cronología de lanzamiento de Anime Origins — fecha de lanzamiento, acceso anticipado, trailers, primeros vistazos y updates con nuevas units, modos y correcciones.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es la página de Lanzamiento de Anime Origins?",
+      "whatIsDescription": "Un registro continuo de la fecha de lanzamiento, ventanas de acceso anticipado, trailers, revelaciones de primeros vistazos y updates del juego que cubren nuevas units, modos y cambios de balance.",
+      "why": "¿Por qué seguir las noticias de lanzamiento de Anime Origins?",
+      "whySteps": {
+        "step1Title": "No te pierdas el Lanzamiento",
+        "step1Description": "Conoce primero la fecha de lanzamiento y los detalles del acceso anticipado",
+        "step2Title": "Mira los Nuevos Trailers",
+        "step2Description": "Mira los primeros vistazos y revelaciones en cuanto salgan",
+        "step3Title": "Sigue los Updates",
+        "step3Description": "Mantente al tanto de las nuevas units, modos y cambios de balance"
+      },
+      "featured": "Noticias destacadas de lanzamiento",
+      "all": "Todas las noticias de lanzamiento"
+    }
   }
 }
